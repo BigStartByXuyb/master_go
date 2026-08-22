@@ -120,7 +120,9 @@
 
 飞书文档：<https://kcn9dbvfch4c.feishu.cn/docx/LzgzdMmcJoHXMBxbZTzcTtoknph>
 
-画布内容：文档中的“页面布局总览”章节，包含顶部、左侧、中间、右侧、底部区域，以及右侧横向布局、右侧上下布局和右侧标准布局的选择说明。
+画布内容：文档中的“页面布局总览”章节，包含抽象布局选择图；“真实 SSD 页面标注示例”章节新增了基于 MasterGo 图层 `962:229768` 的 SSD 日志页面画布，标注顶部设备区、左侧模块区、中间日志表格、右侧事件详情和底部操作区。
+
+MasterGo 示例来源：<https://mastergo.com/goto/VttXOZz5?layer_id=962:229768&file=181586559903927>
 
 详细飞书文档：
 
