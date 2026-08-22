@@ -122,6 +122,15 @@
 
 画布内容：文档中的“页面布局总览”章节，包含顶部、左侧、中间、右侧、底部区域，以及右侧横向布局、右侧上下布局和右侧标准布局的选择说明。
 
+详细飞书文档：
+
+- [MW 框架组件与资源完整清单](https://kcn9dbvfch4c.feishu.cn/docx/Tn1Dd2ETYoPIyYxsNZVcb6iYntf)
+- [MTSLG IOContorl 运行时 ControlType 清单](https://kcn9dbvfch4c.feishu.cn/docx/F0ptdMOc0o8smdxUYAscjIRinzh)
+- [MW 按钮组件事实清单](https://kcn9dbvfch4c.feishu.cn/docx/Bn7sdaDZvoFTRoxY2BRc7Rahn7g)
+- [MW 组件库设计师使用手册](https://kcn9dbvfch4c.feishu.cn/docx/OYv1d6tceo01lIxKbgrcxkeynxc)
+- [MW 组件库—框架映射总表](https://kcn9dbvfch4c.feishu.cn/docx/Un8Jd19NAoBC3ex2TBOc62Tenjd)
+- [迈为 SSD 项目组件库评估](https://kcn9dbvfch4c.feishu.cn/docx/TrvNdLLeZokmANxF5uScUGeMnkg)
+
 ## 七、版本约定
 
 - Git 是事实源；飞书是协作发布副本。
