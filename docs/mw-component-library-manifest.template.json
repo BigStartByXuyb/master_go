@@ -1,0 +1,39 @@
+{
+  "componentId": "mw.<family>.<name>",
+  "displayName": "设计师看到的中文组件名",
+  "semantic": "组件语义角色",
+  "designer": {
+    "purpose": "设计师用途",
+    "variants": [],
+    "states": [],
+    "visibleProperties": [],
+    "allowedSlots": [],
+    "forbiddenStructureChanges": []
+  },
+  "targets": {
+    "mw-wpf": {
+      "output": "xaml",
+      "control": "以源码核验为准",
+      "styleKeys": [],
+      "propertyMappings": {},
+      "protocolRules": {
+        "IOEnable": "仅在需求明确时生成",
+        "PageName": "仅在需求明确时生成",
+        "s:Action": "仅在需求明确时生成"
+      },
+      "evidence": []
+    },
+    "mtslg-iocontrol": {
+      "output": "iocontrol-xml",
+      "controlType": "以真实 Pages XML 核验为准",
+      "propertyMappings": {},
+      "evidence": []
+    }
+  },
+  "mappingVersion": "0.1.0",
+  "validation": {
+    "mastergoSnapshot": "待验证",
+    "runtimeExample": "待验证",
+    "sourceEvidence": "待验证"
+  }
+}

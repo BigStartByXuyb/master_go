@@ -1,0 +1,103 @@
+{
+  "componentId": "mw.button.standard",
+  "displayName": "标准操作按钮",
+  "status": "designer-template-approved",
+  "mastergo": {
+    "fileName": "新文件",
+    "localLibraryId": "local-202365532477534",
+    "componentSet": "MW/按钮/标准操作按钮",
+    "componentSetFile": "009-mw-按钮-标准操作按钮.json",
+    "variantCount": 16
+  },
+  "semantic": "action-button",
+  "designer": {
+    "purpose": "执行页面中的标准操作",
+    "variants": [
+      "标准按钮",
+      "主操作按钮",
+      "辅助按钮",
+      "页面操作按钮"
+    ],
+    "states": [
+      "默认",
+      "悬停",
+      "按下",
+      "禁用"
+    ],
+    "visibleProperties": [
+      "text",
+      "icon",
+      "按钮类型",
+      "交互状态",
+      "width",
+      "height"
+    ],
+    "variantDescriptions": {
+      "标准按钮": "普通操作，页面中没有明显优先级的确认、执行或设置动作",
+      "主操作按钮": "当前区域最重要、最希望用户执行的动作；同一操作区域通常只使用一个",
+      "辅助按钮": "次要或替代动作，例如取消、返回、更多设置；视觉优先级低于主操作按钮",
+      "页面操作按钮": "页面级或大尺寸操作入口，对应 PageButtonStyle；不是所有页面按钮都要选它"
+    },
+    "allowedSlots": [],
+    "forbiddenStructureChanges": [
+      "不得将标准按钮内部模板拆成页面级普通图形",
+      "不得在页面中替换为未登记的原生控件"
+    ]
+  },
+  "targets": {
+    "mw-wpf": {
+      "output": "xaml",
+      "control": "Button",
+      "styleKeys": {
+        "标准按钮": "implicit Button style / ButtonBaseStyle baseline",
+        "主操作按钮": "ButtonPrimaryStyle",
+        "辅助按钮": "ButtonSecondaryStyle",
+        "页面操作按钮": "PageButtonStyle"
+      },
+      "propertyMappings": {
+        "text": "Content",
+        "icon": "ButtonAttach.IconGeometory",
+        "width": "Width",
+        "height": "Height",
+        "state.disabled": "IsEnabled=false"
+      },
+      "protocolRules": {
+        "IOEnable": "仅在需求明确包含设备联锁时生成",
+        "PageName": "仅在需求明确包含页面跳转时生成",
+        "s:Action": "仅在需求明确包含工程动作时生成"
+      },
+      "evidence": [
+        "D:\\MW-Framework-Reference\\refence\\SDC\\Style\\Button.xaml",
+        "D:\\MW-Framework-Reference\\refence\\SDC\\Brushes\\ButtonBrushes.xaml",
+        "D:\\Test-Work-MW\\MasterGo_WPF_Codex\\docs\\component-analysis\\button.md"
+      ]
+    },
+    "mtslg-iocontrol": {
+      "output": "iocontrol-xml",
+      "controlType": "Button",
+      "styleKeys": [],
+      "propertyMappings": {
+        "text": "LangName",
+        "command": "IOCommand",
+        "enabledCondition": "IOEnable",
+        "visibleCondition": "IOVisible"
+      },
+      "protocolRules": {
+        "Style": "当前运行时 Button 样本未发现非空 Style，不自动生成",
+        "children": "当前运行时 Button 样本均无子节点，不自动生成"
+      },
+      "evidence": [
+        "D:\\Test-Work-MW\\MT\\MTSLG\\Config\\Common\\Pages",
+        "D:\\Test-Work-MW\\MasterGo_WPF_Codex\\docs\\component-analysis\\button.md",
+        "D:\\Test-Work-MW\\MasterGo_WPF_Codex\\docs\\mtslg-runtime-controltype-inventory.md"
+      ]
+    }
+  },
+  "mappingVersion": "0.1.0",
+  "validation": {
+    "mastergoComponent": "已在当前文件创建组件集；待人工视觉复核和团队库发布",
+    "sourceEvidence": "已核验",
+    "runtimeEvidence": "已核验",
+    "visualComparison": "待创建 MasterGo 组件后执行"
+  }
+}
