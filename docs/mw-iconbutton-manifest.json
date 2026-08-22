@@ -1,12 +1,13 @@
 {
   "componentId": "mw.button.icon",
   "displayName": "图标按钮",
-  "status": "icon-resource-component-created-size-adjustable-awaiting-slot-binding",
+  "status": "mastergo-component-recreated-with-adjustable-icon-properties",
   "mastergo": {
     "fileName": "新文件",
     "localLibraryId": "local-202365532477534",
     "componentSet": "MW/按钮/图标按钮",
-    "componentSetFile": "018-mw-按钮-图标按钮.json",
+    "componentSetFile": "071-mw-按钮-图标按钮.json",
+    "componentSetId": "5:0979",
     "layoutCount": 7,
     "stateCount": 5,
     "iconComponent": "MW/图标/图标资源",

@@ -1,12 +1,13 @@
 {
   "componentId": "mw.button.standard",
   "displayName": "标准操作按钮",
-  "status": "designer-template-approved",
+  "status": "mastergo-component-recreated-with-adjustable-properties",
   "mastergo": {
     "fileName": "新文件",
     "localLibraryId": "local-202365532477534",
     "componentSet": "MW/按钮/标准操作按钮",
-    "componentSetFile": "009-mw-按钮-标准操作按钮.json",
+    "componentSetFile": "072-mw-按钮-标准操作按钮.json",
+    "componentSetId": "5:2142",
     "variantCount": 16
   },
   "semantic": "action-button",
