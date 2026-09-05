@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MasterGo file=181586559903927; root layer=357:204391; generated for F2. Public top shell (126px), design title (66px), and bottom navigation are supplied by the host Layout. -->
+<IOContorl ID="" Left="NaN" Top="NaN" Width="NaN" Height="NaN">
+  <IOContorl ID="F2ManualOperation_LoadMagazine" ControlType="ComboBox" Value="1" Left="1090" Top="17" Width="170" Height="40" />
+  <IOContorl ID="F2ManualOperation_LoadSlot" ControlType="ComboBox" Value="1" Left="1090" Top="111" Width="170" Height="40" />
+  <IOContorl ID="F2ManualOperation_MagazineSelect" ControlType="ComboBox" Value="LP1" Left="1090" Top="237" Width="170" Height="40" />
+  <IOContorl ID="F2ManualOperation_Exit" ControlType="IconButton" Style="RightButtonStyle" Icon="ManualOperation_S1_Geometry" Value="EXIT" Left="1090" Top="523" Width="170" Height="80" />
+  <IOContorl ID="F2ManualOperation_OpenMagazine" ControlType="IconButton" Style="UpDownRightButtonStyle" Icon="ManualOperation_S2_Geometry" Value="打开晶圆盒" Left="1090" Top="307" Width="170" Height="80" />
+  <IOContorl ID="F2ManualOperation_CloseMagazine" ControlType="IconButton" Style="UpDownRightButtonStyle" Icon="ManualOperation_S3_Geometry" Value="关闭晶圆盒" Left="1090" Top="415" Width="170" Height="80" />
+  <IOContorl ID="F2ManualOperation_Load" ControlType="IconButton" Style="MainButtonStyle" Icon="ManualOperation_S4_Geometry" TopLeftContent="F1" Value="上料" Left="32" Top="55" Width="180" Height="180" />
+  <IOContorl ID="F2ManualOperation_LoadPT" ControlType="IconButton" Style="MainButtonStyle" Icon="ManualOperation_S5_Geometry" TopLeftContent="F6" Value="上料至P/T" Left="32" Top="261" Width="180" Height="180" />
+  <IOContorl ID="F2ManualOperation_Unload" ControlType="IconButton" Style="MainButtonStyle" Icon="ManualOperation_S6_Geometry" TopLeftContent="F8" Value="下料" Left="444" Top="261" Width="180" Height="180" />
+  <IOContorl ID="F2ManualOperation_UnloadAll" ControlType="IconButton" Style="MainButtonStyle" Icon="ManualOperation_S7_Geometry" TopLeftContent="F9" Value="下料-全部工件" Left="650" Top="261" Width="180" Height="180" />
+  <IOContorl ID="F2ManualOperation_ProcessConfirm" ControlType="IconButton" Style="MainButtonStyle" Icon="ManualOperation_S8_Geometry" TopLeftContent="F10" Value="流程确认" Left="856" Top="261" Width="180" Height="180" />
+  <IOContorl ID="F2ManualOperation_Teach" ControlType="IconButton" Style="MainButtonStyle" Icon="ManualOperation_S9_Geometry" TopLeftContent="F2" Value="示教" Left="238" Top="55" Width="180" Height="180" />
+  <IOContorl ID="F2ManualOperation_Align" ControlType="IconButton" Style="MainButtonStyle" Icon="ManualOperation_S10_Geometry" TopLeftContent="F3" Value="对准" Left="444" Top="55" Width="180" Height="180" />
+  <IOContorl ID="F2ManualOperation_AutoCut" ControlType="IconButton" Style="MainButtonStyle" Icon="ManualOperation_S11_Geometry" TopLeftContent="F4" Value="自动切割" Left="650" Top="55" Width="180" Height="180" />
+  <IOContorl ID="F2ManualOperation_SemiAutoCut" ControlType="IconButton" Style="MainButtonStyle" Icon="ManualOperation_S12_Geometry" TopLeftContent="F5" Value="半自动切割" Left="856" Top="55" Width="180" Height="180" />
+  <IOContorl ID="F2ManualOperation_LoadMagazineLabel" ControlType="TextBlock" Value="上料料盒" FontSize="16" Left="1090" Top="-9" Width="63" Height="16" />
+  <IOContorl ID="F2ManualOperation_LoadSlotLabel" ControlType="TextBlock" Value="上料槽位号" FontSize="16" Left="1090" Top="85" Width="79" Height="16" />
+  <IOContorl ID="F2ManualOperation_MagazineSelectLabel" ControlType="TextBlock" Value="晶圆盒选择" FontSize="16" Left="1090" Top="211" Width="79" Height="16" />
+  <!-- 357:204391/282:242733 is a status-card composition with no registered MTSLG component template. It is deliberately not downgraded to GroupBox or untyped IOContorl. -->
+</IOContorl>

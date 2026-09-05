@@ -1,0 +1,340 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xml:space="preserve"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="Home">主菜单 (0.0)</sys:String>
+
+    <!--String中不能有‘/’，否则会有异常-->
+    <!--[主菜单1.0]-全自动操作start-->
+    <sys:String x:Key="AutoCut">全自动切割(1.0)</sys:String>  
+        <sys:String x:Key="WaferBoxInfo">料盒信息</sys:String>
+    <sys:String x:Key="AutoCutRunning">全自动流程(1.1)</sys:String>
+        <sys:String x:Key="AutoCutAbort">退出全自动</sys:String>
+		<sys:String x:Key="TranslateInfo">运转信息</sys:String>
+        <sys:String x:Key="LaserInfo">激光信息</sys:String>
+        <!--<sys:String x:Key="WaferBoxInfo">料盒信息</sys:String>-->
+        <sys:String x:Key="StopLoadingMaterials">停止上料</sys:String>
+        <sys:String x:Key="RecipeList">配方列表</sys:String>
+        <sys:String x:Key="ContinueLoadingMaterials">继续上料</sys:String>
+    <sys:String x:Key="WaferBoxFloorsStatus">自动操作(1.1.1)</sys:String>
+    <sys:String x:Key="AutoAbort">终止自动</sys:String>
+    <sys:String x:Key="AutoPause">暂停页面</sys:String>
+		 <sys:String x:Key="AutoFocusPause">同轴自动对焦调整</sys:String>
+		 <sys:String x:Key="NotchPositionPause">Notch位置调整</sys:String>
+		 <sys:String x:Key="TargetCheckPause">Target识别</sys:String>
+         <sys:String x:Key="CutDetectionParameters">切痕检测参数</sys:String>
+         <sys:String x:Key="MenuItemBaselineAdjust">基准线调整</sys:String>
+         <sys:String x:Key="MenuItemCuttingPositionAdjust">切割位置调整</sys:String>
+    <sys:String x:Key="BlankInspection">料片检测</sys:String>  
+    <sys:String x:Key="KerfErrorView">Target检测失败</sys:String>  
+    <sys:String x:Key="AlignErrorView">对位错误</sys:String>  
+    <sys:String x:Key="ExceptionProofread">校对错误</sys:String>
+    <sys:String x:Key="ExceptionKnifeMarkCheck">切痕检测时的错误</sys:String> 
+    <!--[主菜单1.0]-全自动操作end-->
+	
+	
+    <!--[主菜单2.0]-手动操作start-->
+    <sys:String x:Key="Manual">手动操作(2.0)</sys:String>
+    <sys:String x:Key="LowAngleTeachView">低倍目标</sys:String>
+        <sys:String x:Key="MenuItemReenter">重新进入</sys:String>
+     <sys:String x:Key="MenuItemMoveToCut">移动到切割道</sys:String>
+        <sys:String x:Key="MenuItemEdgeRecognition">边缘识别</sys:String>
+        <sys:String x:Key="ROIAdjViewModel">调整窗口</sys:String>
+            <sys:String x:Key="MenuItemSubtract5FromX">X-5</sys:String>
+            <sys:String x:Key="MenuItemSubtract1FromX">X-1</sys:String>
+            <sys:String x:Key="MenuItemAdd1ToX">X+1</sys:String>
+            <sys:String x:Key="MenuItemAdd5ToX">X+5</sys:String>
+            <sys:String x:Key="MenuItemSubtract5FromY">Y-5</sys:String>
+            <sys:String x:Key="MenuItemSubtract1FromY">Y-1</sys:String>
+            <sys:String x:Key="MenuItemAdd1ToY">Y+1</sys:String>
+            <sys:String x:Key="MenuItemAdd5ToY">Y+5</sys:String>
+            <sys:String x:Key="MenuItemDefault">默认</sys:String>
+            <sys:String x:Key="MenuItemPowerPickMaintainF1">清除测量结果</sys:String>
+        <sys:String x:Key="MenuItemCleanStationVacuum">清洗台真空</sys:String>
+        <sys:String x:Key="MenuItemAutoStraight">自动拉直</sys:String>
+        <sys:String x:Key="MenuItemLightAmount">光量</sys:String>
+        <sys:String x:Key="MenuItemFocus">对焦</sys:String>
+        <sys:String x:Key="MenuItemRatioSwitch">倍率切换</sys:String>
+        <sys:String x:Key="ZeroDirectionAdjust">θ方向调准</sys:String>
+    <sys:String x:Key="HighAngleTeachView">高倍目标</sys:String>
+       <sys:String x:Key="StreetAlignTeachView">切割道确认</sys:String>
+           <sys:String x:Key="DefineCutRegView">切割区域确认</sys:String>
+    
+    <sys:String x:Key="AbortAlignProcessView">终止目标识别</sys:String>
+    <sys:String x:Key="SingleCHAlignView">单一切割面校准</sys:String>
+    <sys:String x:Key="ManualAlignView">手动对准</sys:String>
+    <sys:String x:Key="AutoAlignView">自动对准</sys:String>
+        <sys:String x:Key="MenuItemSitaAdjust">θ方向调准</sys:String>
+        <!--<sys:String x:Key="TwoPointCircle">两点定圆</sys:String>-->
+    <sys:String x:Key="ManualCutAuto">自动切割</sys:String>
+        <sys:String x:Key="MenuItemOffsetBackward">偏移后方</sys:String>
+        <sys:String x:Key="MenuItemOffsetForeward">偏移前方</sys:String>
+        <sys:String x:Key="MenuItemCutParameter">切割参数</sys:String>
+        <sys:String x:Key="MenuItemTableCenterPos">台盘中心位置</sys:String>
+     <sys:String x:Key="ManualCutRunning">切割状态</sys:String>
+     <sys:String x:Key="ManualPause">手动暂停页面</sys:String>
+     <sys:String x:Key="ManualCutAbort">退出手动全自动</sys:String>
+    <sys:String x:Key="ManualCutSemiAuto">半自动切割</sys:String>
+        <sys:String x:Key="MenuItemCutBackward">向后切</sys:String>
+        <sys:String x:Key="MenuItemCutForeward">向前切</sys:String>
+    <sys:String x:Key="EdgeTeachView">边缘识别</sys:String>
+        <sys:String x:Key="MenuItemCurrentLocationRecognition">当前位置识别</sys:String>
+        <sys:String x:Key="MenuItemAutoRecognition">自动识别</sys:String>
+        <sys:String x:Key="MenuItemBaselineShrink">基准线缩小</sys:String>
+        <sys:String x:Key="MenuItemBaselineEnlarge">基准线扩大</sys:String>
+        <sys:String x:Key="MenuItemPREchreentry">返回上一步</sys:String>
+    <sys:String x:Key="ManualLightAdjust">光量调整</sys:String>
+        <sys:String x:Key="MenuItemAutoDimmerStraightLight">自动调光&#10;  (直光)</sys:String>
+        <sys:String x:Key="MenuItemAutoDimmerObliqueLight">自动调光&#10;  (斜光)</sys:String>
+        <sys:String x:Key="MenuItemAutoDimmerStraightAndObliqueLight">   自动调光&#10;(直光+斜光)</sys:String>
+        <sys:String x:Key="MenuItemResetLightSource">重置光源</sys:String>
+    <sys:String x:Key="ManualCleanCoating">清洗涂覆(2.7)</sys:String>
+    <sys:String x:Key="ManualCleanUnload">清洗涂覆(2.7.1)</sys:String>
+    <sys:String x:Key="ManualCoatingSequences">清洗涂覆(2.7.2)</sys:String>
+	<sys:String x:Key="SelectTeachTypeView">示教</sys:String>
+	<sys:String x:Key="ReticleFocusView">同轴对焦调整</sys:String>
+		<sys:String x:Key="MenuItemZUp01um">Z-0.1um</sys:String>
+		<sys:String x:Key="MenuItemZUp1um">Z-1um</sys:String>
+		<sys:String x:Key="MenuItemAtf1">当前位置对焦</sys:String>
+		<sys:String x:Key="MenuItemZDown01um">Z+0.1um</sys:String>
+		<sys:String x:Key="MenuItemZDown1um">Z+1um</sys:String>
+		<sys:String x:Key="MenuItemAtf">台盘位置对焦</sys:String>
+	<sys:String x:Key="NotchTeachView">Notch定位示教</sys:String>
+		<sys:String x:Key="MenuItemManualNotch">当前位置识别</sys:String>
+		<sys:String x:Key="MenuItemAutoNotch">自动识别</sys:String>
+		<sys:String x:Key="MenuItemPTPNotchPos">移至示教点</sys:String>
+	<sys:String x:Key="RingCutAutoView">环切(2.5.0)</sys:String>
+		<sys:String x:Key="MenuItemRingCutParam">环切参数</sys:String>
+	<sys:String x:Key="ManaualLoadStatusView">运转状态</sys:String>
+	<sys:String x:Key="TransferStatusView">运转状态</sys:String>
+	<sys:String x:Key="PreAliResultView">预对准</sys:String>
+	<sys:String x:Key="JustAutoFocusCon">同轴对焦</sys:String>
+	<sys:String x:Key="AutoFocusConfirm">同轴对焦调整</sys:String>
+	<sys:String x:Key="MenuItemThicknessMeasure">厚度测量</sys:String>
+    <!--[主菜单2.0]-手动操作end-->
+    
+    
+    <!--[主菜单3.0]-激光维护start-->
+    <sys:String x:Key="LaserMaintain">激光维护(4.0)</sys:String>
+
+    <sys:String x:Key="WarmupMaintain">暖机功率维护(4.1)</sys:String>
+    
+    <sys:String x:Key="PowerMeasure">功率检测(4.2)</sys:String>
+    <sys:String x:Key="PowerMeasureLocation">功率检测位置</sys:String>
+    <sys:String x:Key="SpotAnalyzerLocation">光斑分析仪位置</sys:String>
+    <sys:String x:Key="MaxPowerSet">最大能量设定</sys:String>
+    
+    <sys:String x:Key="UsingPowerMeasure">使用功率检测(4.3)</sys:String>
+    <sys:String x:Key="RecipeMeasure">配方测量</sys:String>
+    <sys:String x:Key="UsingPowerMeasureDelete">删除</sys:String>
+    <sys:String x:Key="UsingPowerMeasureDeleteAll">全部删除</sys:String>
+    <sys:String x:Key="ManuallyAdd">手动添加</sys:String>
+    
+    <sys:String x:Key="MaxPowerMeasure">最大功率检测(4.4)</sys:String>
+    <sys:String x:Key="PwoerCalibrateListMeasure">功率校准表测量</sys:String>
+    <sys:String x:Key="MaxPowerMeasureDelete">删除</sys:String>
+    <sys:String x:Key="MaxPowerMeasureDeleteAll">全部删除</sys:String>
+    <sys:String x:Key="UpMaxPowerSingle">单个更新最大功率</sys:String>
+    <sys:String x:Key="UpMaxPowerAll">全部更新最大功率</sys:String>
+       
+    <sys:String x:Key="BaseLineCalibrate">基准线校准(4.5)</sys:String>
+    <sys:String x:Key="MenuItemSetMiddleAndStartPoints">设置中点/起点</sys:String>
+    <sys:String x:Key="MenuItemSetEndPoint">设置终点</sys:String>
+    <sys:String x:Key="MenuItemCameraAlignment">相机对准</sys:String>
+    <sys:String x:Key="MenuItemBaselineOffset">基准线补偿</sys:String>
+    <sys:String x:Key="FocusLengthConfirm">焦距确认</sys:String>
+    <sys:String x:Key="MenuItemZAxisUp">Z轴向上</sys:String>
+    <sys:String x:Key="MenuItemZAxisDown">Z轴向下</sys:String>
+    <sys:String x:Key="MenuItemAuto">自动对焦</sys:String>
+    
+    <sys:String x:Key="LaserFocalLength">激光焦距维护(4.6)</sys:String>
+    <sys:String x:Key="MenuItemSetMiddlePoints">设置中点</sys:String>
+    <sys:String x:Key="MenuItemSetLaserFocus">焦距设定</sys:String>
+    
+    <sys:String x:Key="MeasurePointMaintain">测量点维护(4.7)</sys:String>
+    <sys:String x:Key="ClearMeasureResult">清除测量结果</sys:String>
+    <sys:String x:Key="FillCurrentLocation">填写当前位置</sys:String>
+    <sys:String x:Key="MoveToCurrentLocation">移动到当前位置</sys:String>
+    
+    
+    <sys:String x:Key="PickMaintain">拨片维护(4.8)</sys:String>
+    
+   
+     <sys:String x:Key="LaserAxisLocation">激光轴位置(4.9.1)</sys:String>  
+     <sys:String x:Key="LaserLocationMaintain">光路矫正参数(4.9.2)</sys:String>
+     <sys:String x:Key="MenuItemLaserAxisLocation">激光轴位置</sys:String>
+    <sys:String x:Key="MenuItemLaserLocationMaintain">光路矫正参数</sys:String>
+	
+	<sys:String x:Key="SpotDisplacement">光斑检测(4.6)</sys:String>
+		<sys:String x:Key="MenuItemSetLowPos">设置低点位置</sys:String>
+		<sys:String x:Key="MenuItemMoveLowPos">移动低点位置</sys:String>
+		<sys:String x:Key="MenuItemRecLowPos">识别低点位置</sys:String>
+		<sys:String x:Key="MenuItemSetHightPos">设置高点位置</sys:String>
+		<sys:String x:Key="MenuItemMoveHightPos">移动高点位置</sys:String>
+		<sys:String x:Key="MenuItemRecHightPos">识别高点位置</sys:String>
+     
+    <!--按钮-->
+   <sys:String x:Key="PowerParam">功率参数维护</sys:String>   
+    <!--页面标题-->
+   <sys:String x:Key="PowerParamMaintain">功率参数维护(4.10.1)</sys:String>
+    
+    <!--按钮-->
+    <sys:String x:Key="PowerCaliTable">功率矫正表</sys:String>
+    <!--页面标题-->
+    <sys:String x:Key="PowerCaliTableMaintain">功率校正表(4.10.2)</sys:String>
+    
+     <!--按钮-->
+    <sys:String x:Key="LaserParamButton">激光器参数</sys:String>
+     <!--页面标题-->
+    <sys:String x:Key="LaserParam">激光器参数(4.5)</sys:String>
+	<sys:String x:Key="FLP8L_LaserParam">激光器参数(4.5)</sys:String>
+	
+
+     <sys:String x:Key="MenuItemBaseLineCalibrate">基准线校准</sys:String>
+   
+    <!--Recipe-->
+    <sys:String x:Key="Recipe">配方列表(3.0)</sys:String>
+    <sys:String x:Key="RecipeDelete">配方删除</sys:String>
+    <sys:String x:Key="CutParameter">切割参数(3.1.1)</sys:String>
+		<sys:String x:Key="MenuItemDFTParameter">DFT参数</sys:String>
+        <sys:String x:Key="MenuItemCutParameter2">切割参数2</sys:String>
+        <sys:String x:Key="MenuItemAlignParameter">对准参数</sys:String>
+        <sys:String x:Key="MenuItemAutoFocusParameter">同轴对焦参数</sys:String>
+        <sys:String x:Key="MenuItemSubIndex">Index</sys:String>
+        <sys:String x:Key="MenuItemKerfCheck">斜裂检测</sys:String>
+        <sys:String x:Key="MenuItemSizeMeasure">尺寸测量</sys:String>
+        <sys:String x:Key="ThicknessMeasure">厚度测量</sys:String>
+		<sys:String x:Key="MenuItemRingCutParameter">环切参数</sys:String>
+    <sys:String x:Key="CutParameter2">切割参数2(3.1.2)</sys:String>
+    <sys:String x:Key="AlignParameter">对准参数(3.1.3)</sys:String>
+	<sys:String x:Key="AutoFocusParameter">同轴对焦参数(3.1.4)</sys:String>
+    <sys:String x:Key="SubIndexData">INDEX(3.1.5)</sys:String>
+    <sys:String x:Key="WallCutting">MPW城墙切割(3.1.5)</sys:String>
+    <sys:String x:Key="RingCutParameter">环切参数(3.1.7)</sys:String>
+    <sys:String x:Key="KerfCheck">切痕检测参数(3.1.8)</sys:String>
+	<sys:String x:Key="ObliqueCheckParameter">斜裂检测参数(3.1.9)</sys:String>
+	
+    
+    <!--ParamMaintain-->
+     <sys:String x:Key="ParamMaintainHome">参数维护(5.0)</sys:String>
+     <sys:String x:Key="FunctionMaintain">功能维护(5.1)</sys:String>
+         <sys:String x:Key="MenuItemOperationMaintain">操作维护</sys:String>
+         <sys:String x:Key="MenuItemStatusIndicatorMaintain">信号灯维护</sys:String>
+         <sys:String x:Key="MenuItemBackendMaintain">后台维护</sys:String>
+         <sys:String x:Key="MenuItemScannerMaintain">扫码枪维护</sys:String>
+         <sys:String x:Key="MenuItemParamMaintain">参数维护</sys:String>
+         <sys:String x:Key="OperationMaintain">操作维护(5.1.1)</sys:String>
+         <sys:String x:Key="StatusIndicatorMaintain">信号灯维护(5.1.2)</sys:String>
+         <sys:String x:Key="BackendMaintain">后台维护(5.1.4)</sys:String>       
+         <sys:String x:Key="ParamMaintain">参数维护(5.1.6)</sys:String>
+	<sys:String x:Key="SLIMParamView">SLIM参数(5.2)</sys:String>
+		<sys:String x:Key="MenuItemSLIMParamViewSingle">生成单光点</sys:String>
+		<sys:String x:Key="MenuItemSLIMParamViewdouble">生成双光点</sys:String>
+	<sys:String x:Key="DFTParamView">DFT参数(5.3)</sys:String>
+    
+    <!--DeviceMaintain-->
+    <sys:String x:Key="DeviceMaintainHome">设备维护(6.0)</sys:String>
+    <sys:String x:Key="MagazineSetting">料盒设置(6.1)</sys:String>
+    <sys:String x:Key="MenuItemCopyParameter">复制</sys:String>
+    <sys:String x:Key="MenuItemDeleteParameter">删除</sys:String>
+    <sys:String x:Key="MagazineCopy">料盒复制(6.1.1)</sys:String>
+    <sys:String x:Key="SizeSwitch">尺寸切换(6.2)</sys:String>
+   
+     <sys:String x:Key="MenuItemAxisLocation">轴位置设置</sys:String>
+     <sys:String x:Key="MenuItemVisionSetting">视觉设置</sys:String> 
+     <sys:String x:Key="VisionSetting">视觉设置(6.2.2)</sys:String>
+    <sys:String x:Key="PixelCalibrate">像素标定(6.3)</sys:String>
+    <sys:String x:Key="CameraCalibrate">相机标定(6.4)</sys:String>
+		<sys:String x:Key="MenuItemExcut">执行</sys:String>
+    <sys:String x:Key="AlignCenter">对齐中心</sys:String>
+    
+     <sys:String x:Key="PMAxisLocation">轴位置(6.2.1)</sys:String>
+      <sys:String x:Key="PMAxisLocation0">切割载台</sys:String>
+      <sys:String x:Key="PMAxisLocation1">预对准</sys:String>
+    
+    <sys:String x:Key="FocalLengthMaintain">焦距维护(6.6)</sys:String>
+    <sys:String x:Key="MenuItemResultView">ResultView</sys:String>
+    <sys:String x:Key="ResultView">ResultView(6.7.1)</sys:String>
+    <sys:String x:Key="MenuItemExcute">Excute</sys:String>
+ 
+    <!--<sys:String x:Key="GasPressureThreshold">气压阈值(6.7)</sys:String>-->
+    <sys:String x:Key="SSDGasPressureThreshold">气压阈值(6.7)</sys:String>
+    <sys:String x:Key="MenuItemGasPressureThreshold">气压阈值</sys:String> 
+    <sys:String x:Key="FlowSensor">流量传感器(6.9.3)</sys:String>
+    <sys:String x:Key="MenuItemFlowSensor">流量传感器</sys:String>
+    <sys:String x:Key="LighterController">光源控制(6.5)</sys:String>
+	<sys:String x:Key="LoadPositionCalibration">上料位置标定(6.8)</sys:String>
+	<sys:String x:Key="CoaxialAndHighCalib">激光位置标定(6.9)</sys:String>
+    
+    
+      <!--ProjectMaintain-->
+     <sys:String x:Key="ProjectMaintainHome">工程维护(7.0)</sys:String>
+     <sys:String x:Key="IOMaintain1">电梯维护(7.1.1)</sys:String>
+        <sys:String x:Key="MenuItemElevatorMaintain">电梯维护</sys:String>
+        <sys:String x:Key="MenuItemIOMaintain">IO维护</sys:String>
+        <sys:String x:Key="MenuItemArmOneMaintain">搬运手臂1维护</sys:String>
+        <sys:String x:Key="MenuItemCoatingMaintain">涂覆维护</sys:String>
+        <sys:String x:Key="MenuItemArmTwoMaintain">搬运手臂2维护</sys:String>
+        <sys:String x:Key="MenuItemCutTableMaintain">切割台维护</sys:String>
+        <sys:String x:Key="MenuItemArmThreeMaintain">搬运手臂3维护</sys:String>
+        <sys:String x:Key="MenuItemCleanMaintain">清洗维护</sys:String>
+        <sys:String x:Key="MenuItemLightPathMaintain">光路维护</sys:String>
+     <sys:String x:Key="ElevatorMaintain">料盒维护(7.1.1)</sys:String>
+     <sys:String x:Key="IOMaintain">IO维护(7.1)</sys:String>
+     <sys:String x:Key="ArmOneMaintain">搬运手臂1维护(7.1.3)</sys:String>
+     <sys:String x:Key="CoatingMaintain">涂覆维护(7.1.4)</sys:String>
+     <sys:String x:Key="ArmTwoMaintain">搬运手臂2维护(7.1.5)</sys:String>
+     <sys:String x:Key="CutTableMaintain">切割台维护(7.1.6)</sys:String>
+     <sys:String x:Key="ArmThreeMaintain">搬运手臂3I维护(7.1.7)</sys:String>
+     <sys:String x:Key="CleanMaintain">清洗维护(7.1.8)</sys:String>
+     <sys:String x:Key="LightPathMaintain">光路维护(7.1.9)</sys:String>
+     <sys:String x:Key="AxisOperation">轴操作(7.2)</sys:String>
+      <sys:String x:Key="CIM">CIM(7.4)</sys:String>
+      <sys:String x:Key="PasswordMaintain">密码维护(7.3)</sys:String>
+     <sys:String x:Key="IOStatus">IO状态(7.4)</sys:String>
+     <sys:String x:Key="DeviceParameter">设备参数(7.5.1)</sys:String>
+     <sys:String x:Key="MenuItemDeviceParameter">设备参数</sys:String>
+  
+
+    <!--ParamMaintain-->
+    <sys:String x:Key="SizeMeasure">尺寸测量(5.2)</sys:String>
+       <sys:String x:Key="MenuItemAutoStepping">自动步进</sys:String>
+       <sys:String x:Key="MenuItemAutoCorrecting">自动校正</sys:String>
+       <sys:String x:Key="MenuItemZeroDirectionAdjust">θ方向调准</sys:String>
+       <sys:String x:Key="MenuItemResetToZero">清零</sys:String>
+       <sys:String x:Key="MenuItemCutParamSetting">切割参数设定</sys:String>
+    <sys:String x:Key="BrokenWireCut">断线切割</sys:String>
+       <sys:String x:Key="BlockStartPoint">Block起点</sys:String>
+    <!--ManufacturerMaintain-->
+    <sys:String x:Key="ManufacturerMaintainHome">制造厂商维护(8.0)</sys:String>
+    <sys:String x:Key="AxisParameterSetting">轴设定(8.1)</sys:String>
+    <sys:String x:Key="LaserInterferometer">激光干涉仪(8.2)</sys:String> 
+    <sys:String x:Key="OptionalFunction">选配功能(8.3.1)</sys:String>
+    <sys:String x:Key="FunctionSwitch">功能开关(8.4)</sys:String> 
+    <sys:String x:Key="MachineSwitch">机台切换</sys:String> 
+    <sys:String x:Key="WaferFrameSwitch">MX_SSD1E#机型</sys:String> 
+    <sys:String x:Key="MenuItemOptionalFunction">选配功能</sys:String>
+    
+    
+    <!--流片配方-->
+    <sys:String x:Key="ProcessRecipe">流片配方</sys:String>
+    
+    <sys:String x:Key="CleanError">清洗错误</sys:String>
+    
+     <sys:String x:Key="CarryErrorRecover1">搬运错误恢复1</sys:String>
+     <sys:String x:Key="CarryErrorRecover2">搬运错误恢复2</sys:String>
+     <sys:String x:Key="CarryErrorRecover3">搬运错误恢复3</sys:String>
+    
+     <sys:String x:Key="LaserInputError">激光输入错误</sys:String>
+    
+     <sys:String x:Key="LaserOutputError">激光输出错误</sys:String>
+     <sys:String x:Key="LaserPowerError">激光功率错误</sys:String>
+     <sys:String x:Key="CoatError">涂覆错误</sys:String>
+     <sys:String x:Key="CoatingPauseCheck">涂覆暂停检查</sys:String>
+    
+     <sys:String x:Key="SecurityView">安全认证</sys:String>
+   
+    
+    
+</ResourceDictionary>
