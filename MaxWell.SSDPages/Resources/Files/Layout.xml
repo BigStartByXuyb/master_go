@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fresh static Layout mapping from MasterGo MCP file=181586559903927, layer=357:204391. Header bindings and menu commands require current runtime configuration and are intentionally absent. -->
+<Layout WindowHeight="1024" WindowWidth="1280">
+  <Header />
+  <Body>
+    <Pages>
+      <Page Target="ManualOperation">
+        <Menu>
+          <MenuItem Name="日志记录" Icon="LogRecordGeometry" Index="0" />
+          <MenuItem Name="截图" Icon="ScreenshotGeometry" Index="1" />
+          <MenuItem Name="日志分析" Icon="LogRecordGeometry2" Index="2" />
+          <MenuItem Name="激光设置" Icon="LaserSettingsGeometry" Index="3" />
+          <MenuItem Name="Diode" Icon="DiodeGeometry" Index="4" />
+          <MenuItem Name="设备数据" Icon="ModelParametersGeometry" Index="5" />
+          <MenuItem Name="料盒更新" Icon="CassetteUpdateGeometry" Index="6" />
+          <MenuItem Index="7" />
+          <MenuItem Name="AUX." Index="8" />
+          <MenuItem Name="选项" Index="9" />
+          <MenuItem Name="系统初始化" Icon="SystemInitializationGeometry" Index="10" />
+          <MenuItem Name="遮光板" Icon="LightShieldGeometry" Index="11" />
+          <MenuItem Name="工作台真空" Icon="WorktableVacuumGeometry" Index="12" />
+        </Menu>
+      </Page>
+    </Pages>
+  </Body>
+</Layout>
+

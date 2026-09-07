@@ -1,0 +1,112 @@
+{
+  "componentId": "mw.button.icon",
+  "displayName": "图标按钮",
+  "status": "mastergo-component-recreated-with-adjustable-icon-properties",
+  "mastergo": {
+    "fileName": "新文件",
+    "localLibraryId": "local-202365532477534",
+    "componentSet": "MW/按钮/图标按钮",
+    "componentSetFile": "071-mw-按钮-图标按钮.json",
+    "componentSetId": "5:0979",
+    "layoutCount": 7,
+    "stateCount": 5,
+    "iconComponent": "MW/图标/图标资源",
+    "instanceSwap": "已建立单一图标资源组件；待将图标按钮各变体的示例图标替换为该组件实例",
+    "sizingPolicy": {
+      "buttonWidth": "content-or-fill",
+      "buttonHeight": "layout-style-defined",
+      "iconSize": "designer-adjustable",
+      "iconDefault": "20px（仅示例默认值）",
+      "arbitraryResize": "允许实例级调整图标宽高和位置，不修改路径结构"
+    }
+  },
+  "designer": {
+    "purpose": "使用图标和文字执行导航、设备操作或页面功能",
+    "layouts": [
+      "主图标布局",
+      "右侧横向布局",
+      "右侧上下布局",
+      "底部标准布局",
+      "底部小布局",
+      "灰色紧凑布局",
+      "纯图标布局"
+    ],
+    "states": [
+      "默认",
+      "悬停",
+      "按下",
+      "选中",
+      "禁用"
+    ],
+    "visibleProperties": [
+      "布局",
+      "状态",
+      "图标资源",
+      "按钮文本",
+      "快捷标记",
+      "显示快捷标记",
+      "显示状态标记",
+      "图标宽度",
+      "图标高度"
+    ],
+    "rules": [
+      "业务名称和具体动作通过实例属性表达，不创建返回按钮、继续运行按钮等业务变体",
+      "纯图标布局不使用按钮文本",
+      "不得在 IconButton 内插入第二个按钮、输入框或状态灯"
+    ]
+  },
+  "targets": {
+    "mw-wpf": {
+      "output": "xaml",
+      "control": "IconButton",
+      "styleByLayout": {
+        "主图标布局": "MainButtonStyle",
+        "右侧横向布局": "RightButtonStyle",
+        "右侧上下布局": "RightUpDownButtonStyle",
+        "底部标准布局": "BottomButtonStyle",
+        "底部小布局": "BottomButtonSmallStyle",
+        "灰色紧凑布局": "GrayIconButtonStyle",
+        "纯图标布局": "ButtonIconStyle"
+      },
+      "propertyMappings": {
+        "图标资源": "Icon",
+        "按钮文本": "Content（主图标/底部/灰色布局）或 IconText（右侧布局）",
+        "快捷标记": "TopLeftContent",
+        "显示状态标记": "IsShowStatus",
+        "图标宽度": "IconWidth",
+        "图标高度": "IconHeight",
+        "图标宽度": "IconWidth",
+        "图标高度": "IconHeight"
+      },
+      "evidence": [
+        "D:\\MW-Framework-Reference\\refence\\SDC\\Style\\IconButton.xaml",
+        "D:\\MW-Framework-Reference\\refence\\ManualView.xaml",
+        "D:\\Test-Work-MW\\MasterGo_WPF_Codex\\docs\\mw-button-component-library-v2.md"
+      ]
+    },
+    "mtslg-iocontrol": {
+      "output": "iocontrol-xml",
+      "controlType": "IconButton",
+      "propertyMappings": {
+        "图标资源": "Icon",
+        "按钮文本": "LangName/Value（以实际页面属性组合核验）",
+        "快捷标记": "TopLeftContent",
+        "command": "IOCommand",
+        "enabledCondition": "IOEnable",
+        "page": "PageName"
+      },
+      "evidence": [
+        "D:\\Test-Work-MW\\MT\\MTSLG\\Config\\Common\\Pages",
+        "D:\\Test-Work-MW\\MasterGo_WPF_Codex\\docs\\mtslg-runtime-controltype-inventory.md"
+      ]
+    }
+  },
+  "mappingVersion": "0.1.0",
+  "validation": {
+    "sourceEvidence": "已核验",
+    "runtimeEvidence": "已核验 IconButton ControlType 365 个节点",
+    "mastergoComponent": "已创建并读取 7 布局 × 5 状态属性",
+    "visualComparison": "待人工检查",
+    "iconInstanceSwap": "单一图标资源组件已建立；按钮槽位实例替换待完成"
+  }
+}

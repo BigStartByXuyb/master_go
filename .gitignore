@@ -1,14 +1,12 @@
-# --- .NET / Visual Studio 模板 ---
-bin/
-obj/
+# Visual Studio 缓存
 .vs/
+
+# 构建输出
+[Bb]in/
+[Oo]bj/
+
+# 用户特定文件
 *.user
 *.suo
-
-# --- Rider / 其他 IDE ---
-.idea/
-*.iml
-
-# --- 系统文件 ---
-Thumbs.db
-Desktop.ini
+*.userosscache
+*.sln.docstates
