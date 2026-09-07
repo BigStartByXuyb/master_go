@@ -1,0 +1,113 @@
+{
+  "adapter": "mtslg-iocontrol",
+  "source": {
+    "fileId": "181586559903927",
+    "pageId": "4:0",
+    "layerId": "357:204391"
+  },
+  "target": "ManualOperation",
+  "header": {
+    "owner": "framework",
+    "sections": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43
+    ]
+  },
+  "menu": {
+    "owner": "Layout.xml",
+    "section": 21,
+    "items": [
+      {
+        "sourceRef": "357:204391/107:198083/1066:226168",
+        "sourceText": "日志记录",
+        "index": 0,
+        "icon": "MGIcon_357_204391_107_198083_1066_226168_1066_289077"
+      },
+      {
+        "sourceRef": "357:204391/107:198083/1066:229641",
+        "sourceText": "截图",
+        "index": 1,
+        "icon": "MGIcon_357_204391_107_198083_1066_229641_1066_289077"
+      },
+      {
+        "sourceRef": "357:204391/107:198083/1066:227264",
+        "sourceText": "日志分析",
+        "index": 2,
+        "icon": "MGIcon_357_204391_107_198083_1066_227264_1066_289077"
+      },
+      {
+        "sourceRef": "357:204391/107:198083/1026:394551",
+        "sourceText": "激光设置",
+        "index": 3,
+        "icon": "MGIcon_357_204391_107_198083_1026_394551_1026_394550"
+      },
+      {
+        "sourceRef": "357:204391/107:198083/1066:219929",
+        "sourceText": "Diode",
+        "index": 4,
+        "icon": "MGIcon_357_204391_107_198083_1066_219929_1026_394550"
+      },
+      {
+        "sourceRef": "357:204391/107:198083/1026:396819",
+        "sourceText": "设备数据",
+        "index": 5,
+        "icon": "MGIcon_357_204391_107_198083_1026_396819_1026_394550"
+      },
+      {
+        "sourceRef": "357:204391/107:198083/1026:403719",
+        "sourceText": "料盒更新",
+        "index": 6,
+        "icon": "MGIcon_357_204391_107_198083_1026_403719_1026_394550"
+      },
+      {
+        "sourceRef": "357:204391/107:198083/1026:405237",
+        "sourceText": null,
+        "index": 7,
+        "icon": null
+      },
+      {
+        "sourceRef": "357:204391/107:198083/1026:401840",
+        "sourceText": "AUX.",
+        "index": 8,
+        "icon": null
+      },
+      {
+        "sourceRef": "357:204391/107:198083/1026:414492",
+        "sourceText": "选项",
+        "index": 9,
+        "icon": null
+      },
+      {
+        "sourceRef": "357:204391/107:198083/1026:395181",
+        "sourceText": "系统初始化",
+        "index": 10,
+        "icon": "MGIcon_357_204391_107_198083_1026_395181_1026_394550"
+      },
+      {
+        "sourceRef": "357:204391/107:198083/1026:412971",
+        "sourceText": "遮光板",
+        "index": 11,
+        "icon": "MGIcon_357_204391_107_198083_1026_412971_1026_394550"
+      },
+      {
+        "sourceRef": "357:204391/107:198083/1026:416776",
+        "sourceText": "工作台真空",
+        "index": 12,
+        "icon": "MGIcon_357_204391_107_198083_1026_416776_1026_394550"
+      }
+    ]
+  },
+  "omitted": [
+    {
+      "sourceRef": "357:204391/282:242733",
+      "reason": "user instructed: do not generate this unmapped status component"
+    }
+  ],
+  "runtimeBindings": "unverified: no current-project active Layout, language keys, commands, or permissions were supplied"
+}
+
