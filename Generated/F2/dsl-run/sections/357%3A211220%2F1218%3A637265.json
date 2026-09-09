@@ -1,0 +1,48 @@
+{
+  "sectionIndex": 9,
+  "section": {
+    "id": "357:211220/1218:637265",
+    "name": "矩形 108",
+    "type": "LAYER"
+  },
+  "rootContainer": {
+    "width": "1280px",
+    "minHeight": "1024px",
+    "background": "transparent",
+    "overflow": "hidden",
+    "position": "relative"
+  },
+  "structureSiblingCount": 1,
+  "dsl": {
+    "styles": {
+      "effect_17:25760": {
+        "value": []
+      },
+      "paint_93:187056": {
+        "value": [
+          "#A4C4E2"
+        ]
+      }
+    },
+    "nodes": [
+      {
+        "type": "LAYER",
+        "id": "357:211220/1218:637265",
+        "name": "矩形 108",
+        "layoutStyle": {
+          "width": 1280,
+          "height": 202,
+          "relativeX": 0,
+          "relativeY": 0
+        },
+        "fill": "paint_93:187056",
+        "_color": "#A4C4E2",
+        "effect": "effect_17:25760"
+      }
+    ],
+    "components": []
+  },
+  "nodeCount": 1,
+  "componentDocumentLinks": [],
+  "fetchProgress": "Fetched 10/35. MISSING 25 sections: [10,11,12,13,14,15,16,17,18,19... +15 more]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
+}

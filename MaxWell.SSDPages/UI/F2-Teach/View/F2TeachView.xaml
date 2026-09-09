@@ -1,0 +1,15 @@
+<UserControl x:Class="MaxWell.SSDPages.F2_Teach.View.F2TeachView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:s="http://www.maxwell-gp.com/"
+    xmlns:uidesign="clr-namespace:MaxWell.UIDesign;assembly=MaxWell.UIDesign"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    d:DesignHeight="1024" d:DesignWidth="1280" mc:Ignorable="d">
+  <UserControl.Resources>
+    <ResourceDictionary Source="/MaxWell.SSDPages;component/Resources/Icons/F2TeachPageIcon.xaml" />
+  </UserControl.Resources>
+  <Grid>
+    <uidesign:PageDesign x:Name="pageDesign" XmlPagePath="F2TeachPage" Loaded="{s:Action PageDesign_Loaded}" />
+  </Grid>
+</UserControl>

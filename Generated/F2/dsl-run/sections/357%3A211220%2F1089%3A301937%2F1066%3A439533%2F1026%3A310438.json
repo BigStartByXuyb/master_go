@@ -1,0 +1,234 @@
+{
+  "sectionIndex": 5,
+  "section": {
+    "id": "357:211220/1089:301937/1066:439533/1026:310438",
+    "name": "顶部栏",
+    "type": "INSTANCE"
+  },
+  "rootContainer": {
+    "width": "1280px",
+    "minHeight": "1024px",
+    "background": "transparent",
+    "overflow": "hidden",
+    "position": "relative"
+  },
+  "structureSiblingCount": 3,
+  "dsl": {
+    "styles": {
+      "effect_17:25760": {
+        "value": []
+      },
+      "effect_93:196684": {
+        "value": [
+          "box-shadow: inset 1px 1px 0px 0px rgba(255, 255, 255, 0.8);",
+          "box-shadow: 2px 2px 0px 0px #608CB5;"
+        ]
+      },
+      "font_1066:009165": {
+        "value": {
+          "family": "PingFang SC",
+          "size": 15.999999046325684,
+          "style": "{\"fontStyle\":\"常规体\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "none",
+          "lineHeight": "15.999999046325684",
+          "letterSpacing": "auto",
+          "weight": "400"
+        }
+      },
+      "paint_13:14524": {
+        "value": [
+          "#4F7090"
+        ]
+      },
+      "paint_13:5070": {
+        "value": [
+          "#000000"
+        ]
+      },
+      "paint_921:452131": {
+        "value": [
+          "linear-gradient(180deg, #D0EAFF 0%, #D0EAFF 42%, #B5D5F0 98%)"
+        ]
+      }
+    },
+    "nodes": [
+      {
+        "type": "INSTANCE",
+        "id": "357:211220/1089:301937/1066:439533/1026:310438",
+        "name": "顶部栏",
+        "layoutStyle": {
+          "width": 100,
+          "height": 100,
+          "relativeX": 0,
+          "relativeY": 0
+        },
+        "componentInfo": {
+          "properties": {
+            "属性 1": "icon+文案"
+          }
+        },
+        "children": [
+          {
+            "type": "INSTANCE",
+            "id": "357:211220/1089:301937/1066:439533/1026:310438/1066:291904",
+            "name": "icon+文案",
+            "layoutStyle": {
+              "width": 100,
+              "height": 100,
+              "relativeX": 0,
+              "relativeY": 0
+            },
+            "componentInfo": {
+              "properties": {
+                "实例": "1026:310358",
+                "显示icon": false,
+                "显示文案": false
+              }
+            },
+            "children": [
+              {
+                "type": "GROUP",
+                "id": "357:211220/1089:301937/1066:439533/1026:310438/1066:291904/1066:291889",
+                "name": "组 1258",
+                "layoutStyle": {
+                  "width": 100,
+                  "height": 100,
+                  "relativeX": 0,
+                  "relativeY": 0
+                },
+                "children": [
+                  {
+                    "type": "INSTANCE",
+                    "id": "357:211220/1089:301937/1066:439533/1026:310438/1066:291904/1066:291889/1066:291891",
+                    "name": "矩形 116",
+                    "layoutStyle": {
+                      "width": 100,
+                      "height": 100,
+                      "relativeX": 0,
+                      "relativeY": 0
+                    },
+                    "effect": "effect_17:25760",
+                    "componentInfo": {},
+                    "children": [
+                      {
+                        "type": "LAYER",
+                        "id": "357:211220/1089:301937/1066:439533/1026:310438/1066:291904/1066:291889/1066:291891/93:184986",
+                        "name": "背景区域",
+                        "layoutStyle": {
+                          "width": 152,
+                          "height": 84,
+                          "relativeX": 0,
+                          "relativeY": 0
+                        },
+                        "borderRadius": "8px",
+                        "fill": "paint_921:452131",
+                        "_color": "linear-gradient(180deg, #D0EAFF 0%, #D0EAFF 42%, #B5D5F0 98%)",
+                        "effect": "effect_93:196684"
+                      }
+                    ],
+                    "componentId": "93:185032"
+                  },
+                  {
+                    "type": "INSTANCE",
+                    "id": "357:211220/1089:301937/1066:439533/1026:310438/1066:291904/1066:291889/1066:291890",
+                    "name": "icon",
+                    "layoutStyle": {
+                      "width": 80,
+                      "height": 50,
+                      "relativeX": 10,
+                      "relativeY": 12
+                    },
+                    "componentInfo": {},
+                    "children": [
+                      {
+                        "type": "GROUP",
+                        "id": "357:211220/1089:301937/1066:439533/1026:310438/1066:291904/1066:291889/1066:291890/1026:310359",
+                        "name": "组 1201",
+                        "layoutStyle": {
+                          "width": 80,
+                          "height": 50,
+                          "relativeX": 0,
+                          "relativeY": 0
+                        },
+                        "children": [
+                          {
+                            "type": "LAYER",
+                            "id": "357:211220/1089:301937/1066:439533/1026:310438/1066:291904/1066:291889/1066:291890/1026:310359/1026:310360",
+                            "name": "矩形 1147",
+                            "layoutStyle": {
+                              "width": 80,
+                              "height": 50,
+                              "relativeX": 0,
+                              "relativeY": 0
+                            },
+                            "borderRadius": "1px",
+                            "strokeColor": "paint_13:14524",
+                            "strokeType": "dashed",
+                            "strokeAlign": "inside",
+                            "strokeWidth": "1px"
+                          }
+                        ]
+                      }
+                    ],
+                    "componentId": "1026:310358"
+                  }
+                ]
+              },
+              {
+                "type": "TEXT",
+                "id": "357:211220/1089:301937/1066:439533/1026:310438/1066:291904/1066:291892",
+                "name": "文案",
+                "layoutStyle": {
+                  "width": 80,
+                  "height": 16,
+                  "relativeX": 10,
+                  "relativeY": 72
+                },
+                "text": [
+                  {
+                    "text": "文案",
+                    "font": "font_1066:009165"
+                  }
+                ],
+                "textColor": [
+                  {
+                    "start": 0,
+                    "end": 2,
+                    "color": "paint_13:5070"
+                  }
+                ],
+                "textAlign": "center",
+                "textMode": "auto-height",
+                "_placeholder": true
+              }
+            ],
+            "componentId": "1066:291888",
+            "_variantProps": {
+              "实例": "1026:310358"
+            }
+          }
+        ],
+        "componentId": "1066:291903",
+        "_variantProps": {
+          "属性 1": "icon+文案"
+        }
+      }
+    ],
+    "components": [],
+    "rowTexts": [
+      {
+        "text": "文案",
+        "_placeholder": true,
+        "parentType": "INSTANCE",
+        "parentName": "icon+文案"
+      }
+    ],
+    "placeholderTexts": [
+      "文案"
+    ]
+  },
+  "nodeCount": 9,
+  "componentDocumentLinks": [],
+  "fetchProgress": "Fetched 6/35. MISSING 29 sections: [6,7,8,9,10,11,12,13,14,15... +19 more]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
+}

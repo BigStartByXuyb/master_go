@@ -1,0 +1,293 @@
+{
+  "schemaVersion": "mastergo-dsl-run/1",
+  "runId": "20260909114035-369219f1",
+  "fileId": "181586559903927",
+  "layerId": "357:211220",
+  "pageName": "F2-Manual",
+  "ui": "F2",
+  "startedAt": "2026-09-09T03:40:35.8589248Z",
+  "expectedSectionCount": 35,
+  "expectedNodeCount": 333.0,
+  "sections": [
+    {
+      "index": 0,
+      "sectionId": "357:211220/1089:301937/107:272505",
+      "name": "矩形 16",
+      "expectedNodeCount": 2.0,
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "index": 1,
+      "sectionId": "357:211220/1089:301937/107:272502",
+      "name": "分割线",
+      "expectedNodeCount": 3.0,
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "index": 2,
+      "sectionId": "357:211220/1089:301937/1066:439533/107:186969",
+      "name": "矩形 5",
+      "expectedNodeCount": 1.0,
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "index": 3,
+      "sectionId": "357:211220/1089:301937/1066:439533/1026:310328",
+      "name": "组 2518",
+      "expectedNodeCount": 15.0,
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "index": 4,
+      "sectionId": "357:211220/1089:301937/1066:439533/1026:310449",
+      "name": "顶部栏",
+      "expectedNodeCount": 7.0,
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "index": 5,
+      "sectionId": "357:211220/1089:301937/1066:439533/1026:310438",
+      "name": "顶部栏",
+      "expectedNodeCount": 9.0,
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "index": 6,
+      "sectionId": "357:211220/1089:301937/1066:439533/1026:310433",
+      "name": "顶部栏",
+      "expectedNodeCount": 9.0,
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "index": 7,
+      "sectionId": "357:211220/1089:301937/1066:439533/1026:310448",
+      "name": "顶部栏",
+      "expectedNodeCount": 6.0,
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "index": 8,
+      "sectionId": "357:211220/1089:301937/1066:439533/1026:310443",
+      "name": "顶部栏",
+      "expectedNodeCount": 9.0,
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "index": 9,
+      "sectionId": "357:211220/1218:637265",
+      "name": "矩形 108",
+      "expectedNodeCount": 1.0,
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "index": 10,
+      "sectionId": "357:211220/1218:637266",
+      "name": "右侧底部-常驻button",
+      "expectedNodeCount": 31.0,
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "index": 11,
+      "sectionId": "357:211220/1218:637273",
+      "name": "非首页-长方形",
+      "expectedNodeCount": 7.0,
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "index": 12,
+      "sectionId": "357:211220/1218:637281",
+      "name": "非首页-长方形",
+      "expectedNodeCount": 3.0,
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "index": 13,
+      "sectionId": "357:211220/1218:637290",
+      "name": "非首页-长方形",
+      "expectedNodeCount": 3.0,
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "index": 14,
+      "sectionId": "357:211220/1218:637299",
+      "name": "非首页-长方形",
+      "expectedNodeCount": 5.0,
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "index": 15,
+      "sectionId": "357:211220/1218:637308",
+      "name": "非首页-长方形",
+      "expectedNodeCount": 8.0,
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "index": 16,
+      "sectionId": "357:211220/1218:637317",
+      "name": "非首页-长方形",
+      "expectedNodeCount": 7.0,
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "index": 17,
+      "sectionId": "357:211220/1218:637326",
+      "name": "非首页-长方形",
+      "expectedNodeCount": 8.0,
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "index": 18,
+      "sectionId": "357:211220/1218:637335",
+      "name": "非首页-长方形",
+      "expectedNodeCount": 7.0,
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "index": 19,
+      "sectionId": "357:211220/1218:637344",
+      "name": "非首页-长方形",
+      "expectedNodeCount": 8.0,
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "index": 20,
+      "sectionId": "357:211220/1218:637353",
+      "name": "非首页-长方形",
+      "expectedNodeCount": 7.0,
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "index": 21,
+      "sectionId": "357:211220/1066:434323",
+      "name": "选择框",
+      "expectedNodeCount": 5.0,
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "index": 22,
+      "sectionId": "357:211220/1066:433993",
+      "name": "固定文本框",
+      "expectedNodeCount": 1.0,
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "index": 23,
+      "sectionId": "357:211220/1066:434148",
+      "name": "固定文本框",
+      "expectedNodeCount": 1.0,
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "index": 24,
+      "sectionId": "357:211220/1066:433997",
+      "name": "固定文本框",
+      "expectedNodeCount": 1.0,
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "index": 25,
+      "sectionId": "357:211220/1066:339349",
+      "name": "界面内操作组",
+      "expectedNodeCount": 24.0,
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "index": 26,
+      "sectionId": "357:211220/1066:339725",
+      "name": "界面内操作组",
+      "expectedNodeCount": 46.0,
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "index": 27,
+      "sectionId": "357:211220/1066:334037",
+      "name": "右侧栏",
+      "expectedNodeCount": 5.0,
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "index": 28,
+      "sectionId": "357:211220/1066:334201",
+      "name": "右侧栏",
+      "expectedNodeCount": 5.0,
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "index": 29,
+      "sectionId": "357:211220/1066:334073",
+      "name": "右侧栏",
+      "expectedNodeCount": 6.0,
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "index": 30,
+      "sectionId": "357:211220/1066:334137",
+      "name": "右侧栏",
+      "expectedNodeCount": 5.0,
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "index": 31,
+      "sectionId": "357:211220/197:200164",
+      "name": "集成图像-低倍率",
+      "expectedNodeCount": 25.0,
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "index": 32,
+      "sectionId": "357:211220/17:072815",
+      "name": "目标示教 （2.2.1）",
+      "expectedNodeCount": 1.0,
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "index": 33,
+      "sectionId": "357:211220/1066:337930",
+      "name": "界面内操作组",
+      "expectedNodeCount": 26.0,
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "index": 34,
+      "sectionId": "357:211220/1066:338292",
+      "name": "界面内操作组",
+      "expectedNodeCount": 26.0,
+      "status": "pending",
+      "attempts": 0
+    }
+  ]
+}

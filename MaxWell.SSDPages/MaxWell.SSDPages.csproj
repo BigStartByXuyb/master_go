@@ -57,6 +57,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\F2-Teach\View\F2TeachView.xaml.cs" />
+    <Compile Include="UI\F2-Teach\ViewModel\F2TeachViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Page Include="Resources\Files\Language\MaxWellClient_CN.xaml">
@@ -75,11 +77,20 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="UI\F2-Teach\View\F2TeachView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\Icons\F2TeachPageIcon.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\Files\Layout.xml" />
     <None Include="Resources\Files\DefaultConfig" />
     <None Include="Resources\Files\PreBuild.bat" />
+    <Content Include="Common\Pages\F2TeachPage.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

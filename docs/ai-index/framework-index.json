@@ -1,0 +1,15 @@
+{
+  "schemaVersion": "mastergo-framework-index/1",
+  "adapter": "mtslg-iocontrol",
+  "project": "MaxWell.SSDPages",
+  "projectFile": "MaxWell.SSDPages/MaxWell.SSDPages.csproj",
+  "layoutFile": "MaxWell.SSDPages/Resources/Files/Layout.xml",
+  "pagesRoot": "MaxWell.SSDPages/Common/Pages",
+  "iconsRoot": "MaxWell.SSDPages/Resources/Icons",
+  "sourceEvidence": [
+    "MaxWell.SSDPages/Resources/Files/Language/MaxWellClient_CN.xaml",
+    "MaxWell.SSDPages/Resources/Files/Language/MaxwellFramework_CN.xaml",
+    "MaxWell.SSDPages/Resources/Files/Layout.xml"
+  ],
+  "runtimeBindings": "pending"
+}

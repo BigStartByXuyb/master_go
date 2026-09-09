@@ -1,0 +1,160 @@
+{
+  "sectionIndex": 28,
+  "section": {
+    "id": "357:211220/1066:334201",
+    "name": "右侧栏",
+    "type": "INSTANCE"
+  },
+  "rootContainer": {
+    "width": "1280px",
+    "minHeight": "1024px",
+    "background": "transparent",
+    "overflow": "hidden",
+    "position": "relative"
+  },
+  "structureSiblingCount": 1,
+  "dsl": {
+    "styles": {
+      "effect_17:25760": {
+        "value": []
+      },
+      "effect_93:196684": {
+        "value": [
+          "box-shadow: inset 1px 1px 0px 0px rgba(255, 255, 255, 0.8);",
+          "box-shadow: 2px 2px 0px 0px #608CB5;"
+        ]
+      },
+      "font_113:062462": {
+        "value": {
+          "family": "Alibaba PuHuiTi 2.0",
+          "size": 18,
+          "style": "{\"fontStyle\":\"65 Medium\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "none",
+          "lineHeight": "22",
+          "letterSpacing": "auto",
+          "weight": "500"
+        }
+      },
+      "paint_223:089272": {
+        "value": [
+          "#000000"
+        ]
+      },
+      "paint_921:452131": {
+        "value": [
+          "linear-gradient(180deg, #D0EAFF 0%, #D0EAFF 42%, #B5D5F0 98%)"
+        ]
+      }
+    },
+    "nodes": [
+      {
+        "type": "INSTANCE",
+        "id": "357:211220/1066:334201",
+        "name": "右侧栏",
+        "layoutStyle": {
+          "width": 170,
+          "height": 80,
+          "relativeX": 0,
+          "relativeY": 0
+        },
+        "componentInfo": {
+          "properties": {
+            "按钮类型": "文案 大button"
+          }
+        },
+        "children": [
+          {
+            "type": "INSTANCE",
+            "id": "357:211220/1066:334201/1158:328094",
+            "name": "文案",
+            "layoutStyle": {
+              "width": 170,
+              "height": 80,
+              "relativeX": 0,
+              "relativeY": 0
+            },
+            "componentInfo": {},
+            "children": [
+              {
+                "type": "INSTANCE",
+                "id": "357:211220/1066:334201/1158:328094/1158:259102",
+                "name": "背景区域",
+                "layoutStyle": {
+                  "width": 170,
+                  "height": 80,
+                  "relativeX": 0,
+                  "relativeY": 0
+                },
+                "effect": "effect_17:25760",
+                "componentInfo": {},
+                "children": [
+                  {
+                    "type": "LAYER",
+                    "id": "357:211220/1066:334201/1158:328094/1158:259102/1026:394538",
+                    "name": "背景区域",
+                    "layoutStyle": {
+                      "width": 152,
+                      "height": 84,
+                      "relativeX": 0,
+                      "relativeY": 0
+                    },
+                    "borderRadius": "8px",
+                    "fill": "paint_921:452131",
+                    "_color": "linear-gradient(180deg, #D0EAFF 0%, #D0EAFF 42%, #B5D5F0 98%)",
+                    "effect": "effect_93:196684"
+                  }
+                ],
+                "componentId": "1026:394537"
+              },
+              {
+                "type": "TEXT",
+                "id": "357:211220/1066:334201/1158:328094/1158:259103",
+                "name": "固定文本框",
+                "layoutStyle": {
+                  "width": 130,
+                  "height": 22,
+                  "relativeX": 20,
+                  "relativeY": 29
+                },
+                "fill": "paint_223:089272",
+                "_color": "#000000",
+                "text": [
+                  {
+                    "text": "文案",
+                    "font": "font_113:062462"
+                  }
+                ],
+                "textColor": [
+                  {
+                    "start": 0,
+                    "end": 2,
+                    "color": "paint_223:089272"
+                  }
+                ],
+                "textAlign": "center",
+                "textMode": "auto-height"
+              }
+            ],
+            "componentId": "1158:259101"
+          }
+        ],
+        "componentId": "1158:328093",
+        "_variantProps": {
+          "按钮类型": "文案 大button"
+        }
+      }
+    ],
+    "components": [],
+    "rowTexts": [
+      {
+        "text": "文案",
+        "parentType": "INSTANCE",
+        "parentName": "文案"
+      }
+    ]
+  },
+  "nodeCount": 5,
+  "componentDocumentLinks": [],
+  "fetchProgress": "Fetched 27/35. MISSING 8 sections: [26,27,29,30,31,32,33,34]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
+}

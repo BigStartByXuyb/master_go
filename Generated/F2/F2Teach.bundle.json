@@ -1,0 +1,37 @@
+{
+  "projectRoot": "D:/agent_xy/tu/master_go/MaxWell.SSDPages",
+  "csproj": "MaxWell.SSDPages.csproj",
+  "pageName": "F2Teach",
+  "area": "F2-Teach",
+  "viewName": "F2TeachView",
+  "viewModelName": "F2TeachViewModel",
+  "viewPath": "UI/F2-Teach/View/F2TeachView.xaml",
+  "codeBehindPath": "UI/F2-Teach/View/F2TeachView.xaml.cs",
+  "viewModelPath": "UI/F2-Teach/ViewModel/F2TeachViewModel.cs",
+  "pageTarget": "F2Teach",
+  "pageLangName": "",
+  "pageXmlPath": "Common/Pages/F2TeachPage.xml",
+  "iconPath": "Resources/Icons/F2TeachPageIcon.xaml",
+  "layoutPath": "Resources/Files/Layout.xml",
+  "mappingPath": "D:/agent_xy/tu/master_go/Generated/F2/F2Teach.mapping.input.json",
+  "svgPath": "D:/agent_xy/tu/master_go/Generated/F2/dsl-run/extractSvg.json",
+  "iconMapPath": "D:/agent_xy/tu/master_go/Generated/F2/F2Teach.icon-map.json",
+  "menuItems": [
+    { "name": "新建示教", "langName": "", "topLeftContent": "F1", "index": 0 },
+    { "name": "", "langName": "", "topLeftContent": "", "index": 1 },
+    { "name": "", "langName": "", "topLeftContent": "", "index": 2 },
+    { "name": "工件边缘录入", "langName": "", "topLeftContent": "F3", "index": 3 },
+    { "name": "θ 角校正", "langName": "", "topLeftContent": "F5", "index": 4 },
+    { "name": "自动影像示教", "langName": "", "topLeftContent": "F6", "index": 5 },
+    { "name": "调光", "langName": "", "topLeftContent": "F7", "index": 6 },
+    { "name": "自动示教", "langName": "", "topLeftContent": "F9", "index": 7 },
+    { "name": "对焦", "langName": "", "topLeftContent": "F8", "index": 8 },
+    { "name": "倍率变更", "langName": "", "topLeftContent": "F10", "index": 9 }
+  ],
+  "layoutStatus": "complete",
+  "layoutEvidence": {
+    "matchedBottomBarItems": 10,
+    "unresolvedBottomBarItems": 0,
+    "pendingEmptySources": ["section 12", "section 13: DSL 明确为空，固定模板字段保留为空字符串"]
+  }
+}

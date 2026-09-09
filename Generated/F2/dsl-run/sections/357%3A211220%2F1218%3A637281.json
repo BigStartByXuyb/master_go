@@ -1,0 +1,86 @@
+{
+  "sectionIndex": 12,
+  "section": {
+    "id": "357:211220/1218:637281",
+    "name": "非首页-长方形",
+    "type": "INSTANCE"
+  },
+  "rootContainer": {
+    "width": "1280px",
+    "minHeight": "1024px",
+    "background": "transparent",
+    "overflow": "hidden",
+    "position": "relative"
+  },
+  "structureSiblingCount": 2,
+  "dsl": {
+    "styles": {
+      "effect_17:25760": {
+        "value": []
+      },
+      "effect_93:196684": {
+        "value": [
+          "box-shadow: inset 1px 1px 0px 0px rgba(255, 255, 255, 0.8);",
+          "box-shadow: 2px 2px 0px 0px #608CB5;"
+        ]
+      },
+      "paint_921:452131": {
+        "value": [
+          "linear-gradient(180deg, #D0EAFF 0%, #D0EAFF 42%, #B5D5F0 98%)"
+        ]
+      }
+    },
+    "nodes": [
+      {
+        "type": "INSTANCE",
+        "id": "357:211220/1218:637281",
+        "name": "非首页-长方形",
+        "layoutStyle": {
+          "width": 180,
+          "height": 84,
+          "relativeX": 0,
+          "relativeY": 0
+        },
+        "componentInfo": {},
+        "children": [
+          {
+            "type": "INSTANCE",
+            "id": "357:211220/1218:637281/1218:338310",
+            "name": "背景区域",
+            "layoutStyle": {
+              "width": 180,
+              "height": 84,
+              "relativeX": 0,
+              "relativeY": 0
+            },
+            "effect": "effect_17:25760",
+            "componentInfo": {},
+            "children": [
+              {
+                "type": "LAYER",
+                "id": "357:211220/1218:637281/1218:338310/1026:394538",
+                "name": "背景区域",
+                "layoutStyle": {
+                  "width": 152,
+                  "height": 84,
+                  "relativeX": 0,
+                  "relativeY": 0
+                },
+                "borderRadius": "8px",
+                "fill": "paint_921:452131",
+                "_color": "linear-gradient(180deg, #D0EAFF 0%, #D0EAFF 42%, #B5D5F0 98%)",
+                "effect": "effect_93:196684"
+              }
+            ],
+            "componentId": "1026:394537"
+          }
+        ],
+        "componentId": "1218:338304"
+      }
+    ],
+    "components": []
+  },
+  "nodeCount": 3,
+  "componentDocumentLinks": [],
+  "fetchProgress": "Fetched 13/35. MISSING 22 sections: [13,14,15,16,17,18,19,20,21,22... +12 more]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
+}

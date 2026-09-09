@@ -1,0 +1,38 @@
+{
+  "adapter": "mtslg-iocontrol",
+  "hostShell": "maxwell-wpf",
+  "projectMode": "target-project",
+  "contentOriginY": 192,
+  "generated": [
+    "Common/Pages/F2TeachPage.xml",
+    "Resources/Icons/F2TeachPageIcon.xaml",
+    "UI/F2-Teach/View/F2TeachView.xaml",
+    "UI/F2-Teach/View/F2TeachView.xaml.cs",
+    "UI/F2-Teach/ViewModel/F2TeachViewModel.cs",
+    "Resources/Files/Layout.xml",
+    "Generated/F2Teach.mapping.json",
+    "Generated/F2Teach.icon-map.json",
+    "Generated/F2Teach.bundle.manifest.json",
+    "MaxWell.SSDPages.csproj"
+  ],
+  "verification": {
+    "static": "passed",
+    "compile": "not-run-by-bundle",
+    "wpfLoad": "not-run-by-bundle",
+    "runtimeLoad": "not-run-by-bundle"
+  },
+  "csprojChanged": false,
+  "pageTarget": "F2Teach",
+  "layout": {
+    "status": "complete",
+    "evidence": {
+      "matchedBottomBarItems": 10,
+      "unresolvedBottomBarItems": 0,
+      "pendingEmptySources": [
+        "section 12",
+        "section 13: DSL 明确为空，固定模板字段保留为空字符串"
+      ]
+    },
+    "menuItemCount": 10
+  }
+}

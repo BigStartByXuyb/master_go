@@ -1,0 +1,169 @@
+{
+  "sectionIndex": 29,
+  "section": {
+    "id": "357:211220/1066:334073",
+    "name": "右侧栏",
+    "type": "INSTANCE"
+  },
+  "rootContainer": {
+    "width": "1280px",
+    "minHeight": "1024px",
+    "background": "transparent",
+    "overflow": "hidden",
+    "position": "relative"
+  },
+  "structureSiblingCount": 1,
+  "dsl": {
+    "styles": {
+      "effect_921:586531": {
+        "value": [
+          "box-shadow: 0px 2px 2px 0px #000000;"
+        ]
+      },
+      "font_10:79359": {
+        "value": {
+          "family": "Arial",
+          "size": 24,
+          "style": "{\"fontStyle\":\"Bold\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "none",
+          "lineHeight": "24",
+          "letterSpacing": "auto",
+          "weight": "700"
+        }
+      },
+      "paint_197:114967": {
+        "value": [
+          "linear-gradient(180deg, #0075E4 0%, #00488C 60%, #005EB6 100%)"
+        ]
+      },
+      "paint_299:245402": {
+        "value": [
+          "#FFFFFF"
+        ]
+      }
+    },
+    "nodes": [
+      {
+        "type": "INSTANCE",
+        "id": "357:211220/1066:334073",
+        "name": "右侧栏",
+        "layoutStyle": {
+          "width": 170,
+          "height": 80,
+          "relativeX": 0,
+          "relativeY": 0
+        },
+        "componentInfo": {
+          "properties": {
+            "按钮类型": "enter"
+          }
+        },
+        "children": [
+          {
+            "type": "INSTANCE",
+            "id": "357:211220/1066:334073/1158:328076",
+            "name": "enter",
+            "layoutStyle": {
+              "width": 170,
+              "height": 80,
+              "relativeX": 0,
+              "relativeY": 0
+            },
+            "componentInfo": {},
+            "children": [
+              {
+                "type": "LAYER",
+                "id": "357:211220/1066:334073/1158:328076/1066:249751",
+                "name": "背景区域",
+                "layoutStyle": {
+                  "width": 170,
+                  "height": 80,
+                  "relativeX": 0,
+                  "relativeY": 0
+                },
+                "borderRadius": "8px",
+                "fill": "paint_197:114967",
+                "_color": "linear-gradient(180deg, #0075E4 0%, #00488C 60%, #005EB6 100%)",
+                "effect": "effect_921:586531"
+              },
+              {
+                "type": "TEXT",
+                "id": "357:211220/1066:334073/1158:328076/1066:249745",
+                "name": "固定文本框",
+                "layoutStyle": {
+                  "width": 82,
+                  "height": 24,
+                  "relativeX": 72,
+                  "relativeY": 29
+                },
+                "fill": "paint_299:245402",
+                "_color": "#FFFFFF",
+                "text": [
+                  {
+                    "text": "ENTER",
+                    "font": "font_10:79359"
+                  }
+                ],
+                "textColor": [
+                  {
+                    "start": 0,
+                    "end": 5,
+                    "color": "paint_299:245402"
+                  }
+                ],
+                "textAlign": "center",
+                "textMode": "single-line"
+              },
+              {
+                "type": "GROUP",
+                "id": "357:211220/1066:334073/1158:328076/1066:249749",
+                "name": "icon区域",
+                "layoutStyle": {
+                  "width": 34.6771240234375,
+                  "height": 33.008705139160156,
+                  "relativeX": 22,
+                  "relativeY": 23.495779037475586
+                },
+                "children": [
+                  {
+                    "type": "PATH",
+                    "id": "357:211220/1066:334073/1158:328076/1066:249749/1066:249750",
+                    "name": "icon区域",
+                    "layoutStyle": {
+                      "width": 34.6771240234375,
+                      "height": 33.008705139160156,
+                      "relativeX": 0,
+                      "relativeY": 0
+                    },
+                    "svgKey": "S29:icon区域|357:211220/1066:334073/1158:328076/1066:249749/1066:249750",
+                    "svgShortKey": "S29#0",
+                    "svgName": "icon区域"
+                  }
+                ]
+              }
+            ],
+            "componentId": "1066:249744"
+          }
+        ],
+        "componentId": "1158:328075",
+        "_variantProps": {
+          "按钮类型": "enter"
+        }
+      }
+    ],
+    "components": [],
+    "rowTexts": [
+      {
+        "text": "ENTER",
+        "parentType": "INSTANCE",
+        "parentName": "enter"
+      }
+    ]
+  },
+  "nodeCount": 6,
+  "svgNodeCount": 1,
+  "hasStrippedSvgs": true,
+  "componentDocumentLinks": [],
+  "fetchProgress": "Fetched 30/35. MISSING 5 sections: [30,31,32,33,34]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
+}

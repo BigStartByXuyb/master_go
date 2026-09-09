@@ -1,0 +1,151 @@
+{
+  "schemaVersion": "mastergo-visibility-audit/1",
+  "input": "D:\\agent_xy\\tu\\master_go\\Generated\\F2\\dsl-run\\input-4.json",
+  "nodeCount": 8,
+  "nodes": [
+    {
+      "ref": "357:211220/1089:301937/1066:439533/1026:310449",
+      "parentRef": null,
+      "type": "INSTANCE",
+      "name": "顶部栏",
+      "text": null,
+      "explicitVisible": null,
+      "visibilityProperty": null,
+      "visibilityRaw": null,
+      "defaultVisible": true,
+      "effectiveVisible": true,
+      "visibilitySourceRef": null,
+      "sourcePath": "$root.section"
+    },
+    {
+      "ref": "357:211220/1089:301937/1066:439533/1026:310449",
+      "parentRef": null,
+      "type": "INSTANCE",
+      "name": "顶部栏",
+      "text": null,
+      "explicitVisible": null,
+      "visibilityProperty": null,
+      "visibilityRaw": null,
+      "defaultVisible": true,
+      "effectiveVisible": true,
+      "visibilitySourceRef": null,
+      "sourcePath": "$root.dsl.nodes[0]"
+    },
+    {
+      "ref": "357:211220/1089:301937/1066:439533/1026:310449/1066:291897",
+      "parentRef": "357:211220/1089:301937/1066:439533/1026:310449",
+      "type": "INSTANCE",
+      "name": "报警",
+      "text": null,
+      "explicitVisible": null,
+      "visibilityProperty": null,
+      "visibilityRaw": null,
+      "defaultVisible": true,
+      "effectiveVisible": true,
+      "visibilitySourceRef": null,
+      "sourcePath": "$root.dsl.nodes[0].children"
+    },
+    {
+      "ref": "357:211220/1089:301937/1066:439533/1026:310449/1066:291897/1066:267521",
+      "parentRef": "357:211220/1089:301937/1066:439533/1026:310449/1066:291897",
+      "type": "INSTANCE",
+      "name": "矩形 167",
+      "text": null,
+      "explicitVisible": null,
+      "visibilityProperty": null,
+      "visibilityRaw": null,
+      "defaultVisible": true,
+      "effectiveVisible": true,
+      "visibilitySourceRef": null,
+      "sourcePath": "$root.dsl.nodes[0].children.children"
+    },
+    {
+      "ref": "357:211220/1089:301937/1066:439533/1026:310449/1066:291897/1066:267521/1026:310362",
+      "parentRef": "357:211220/1089:301937/1066:439533/1026:310449/1066:291897/1066:267521",
+      "type": "LAYER",
+      "name": "矩形 112",
+      "text": null,
+      "explicitVisible": null,
+      "visibilityProperty": null,
+      "visibilityRaw": null,
+      "defaultVisible": true,
+      "effectiveVisible": true,
+      "visibilitySourceRef": null,
+      "sourcePath": "$root.dsl.nodes[0].children.children.children"
+    },
+    {
+      "ref": "357:211220/1089:301937/1066:439533/1026:310449/1066:291897/1066:267520",
+      "parentRef": "357:211220/1089:301937/1066:439533/1026:310449/1066:291897",
+      "type": "INSTANCE",
+      "name": "报警/解除",
+      "text": null,
+      "explicitVisible": null,
+      "visibilityProperty": null,
+      "visibilityRaw": null,
+      "defaultVisible": true,
+      "effectiveVisible": true,
+      "visibilitySourceRef": null,
+      "sourcePath": "$root.dsl.nodes[0].children.children"
+    },
+    {
+      "ref": "357:211220/1089:301937/1066:439533/1026:310449/1066:291897/1066:267520/1026:310366",
+      "parentRef": "357:211220/1089:301937/1066:439533/1026:310449/1066:291897/1066:267520",
+      "type": "PATH",
+      "name": "联集 233",
+      "text": null,
+      "explicitVisible": null,
+      "visibilityProperty": null,
+      "visibilityRaw": null,
+      "defaultVisible": true,
+      "effectiveVisible": true,
+      "visibilitySourceRef": null,
+      "sourcePath": "$root.dsl.nodes[0].children.children.children"
+    },
+    {
+      "ref": "357:211220/1089:301937/1066:439533/1026:310449/1066:291897/1066:267522",
+      "parentRef": "357:211220/1089:301937/1066:439533/1026:310449/1066:291897",
+      "type": "TEXT",
+      "name": "报警/解除",
+      "text": "报警/解除",
+      "explicitVisible": null,
+      "visibilityProperty": null,
+      "visibilityRaw": null,
+      "defaultVisible": true,
+      "effectiveVisible": true,
+      "visibilitySourceRef": null,
+      "sourcePath": "$root.dsl.nodes[0].children.children"
+    }
+  ],
+  "texts": [
+    {
+      "ref": "357:211220/1089:301937/1066:439533/1026:310449/1066:291897/1066:267522",
+      "parentRef": "357:211220/1089:301937/1066:439533/1026:310449/1066:291897",
+      "type": "TEXT",
+      "name": "报警/解除",
+      "text": "报警/解除",
+      "explicitVisible": null,
+      "visibilityProperty": null,
+      "visibilityRaw": null,
+      "defaultVisible": true,
+      "effectiveVisible": true,
+      "visibilitySourceRef": null,
+      "sourcePath": "$root.dsl.nodes[0].children.children"
+    }
+  ],
+  "paths": [
+    {
+      "ref": "357:211220/1089:301937/1066:439533/1026:310449/1066:291897/1066:267520/1026:310366",
+      "parentRef": "357:211220/1089:301937/1066:439533/1026:310449/1066:291897/1066:267520",
+      "type": "PATH",
+      "name": "联集 233",
+      "text": null,
+      "explicitVisible": null,
+      "visibilityProperty": null,
+      "visibilityRaw": null,
+      "defaultVisible": true,
+      "effectiveVisible": true,
+      "visibilitySourceRef": null,
+      "sourcePath": "$root.dsl.nodes[0].children.children.children"
+    }
+  ]
+}

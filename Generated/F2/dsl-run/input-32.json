@@ -1,0 +1,106 @@
+{
+  "sectionIndex": 32,
+  "section": {
+    "id": "357:211220/17:072815",
+    "name": "目标示教 （2.2.1）",
+    "type": "TEXT"
+  },
+  "rootContainer": {
+    "width": "1280px",
+    "minHeight": "1024px",
+    "background": "transparent",
+    "overflow": "hidden",
+    "position": "relative"
+  },
+  "structureSiblingCount": 1,
+  "dsl": {
+    "styles": {
+      "font_13:5397": {
+        "value": {
+          "family": "Alibaba PuHuiTi 2.0",
+          "size": 28,
+          "style": "{\"fontStyle\":\"75 SemiBold\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "none",
+          "lineHeight": "28",
+          "letterSpacing": "auto",
+          "weight": "600"
+        }
+      },
+      "font_93:189680": {
+        "value": {
+          "family": "DIN Alternate",
+          "size": 28,
+          "style": "{\"fontStyle\":\"Bold\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "none",
+          "lineHeight": "28",
+          "letterSpacing": "auto",
+          "weight": "700"
+        }
+      },
+      "paint_10:33": {
+        "value": [
+          "#000000"
+        ]
+      },
+      "paint_13:5070": {
+        "value": [
+          "#000000"
+        ]
+      }
+    },
+    "nodes": [
+      {
+        "type": "TEXT",
+        "id": "357:211220/17:072815",
+        "name": "目标示教 （2.2.1）",
+        "layoutStyle": {
+          "width": 227,
+          "height": 28,
+          "relativeX": 0,
+          "relativeY": 0
+        },
+        "fill": "paint_10:33",
+        "_color": "#000000",
+        "text": [
+          {
+            "text": "目标示教 （",
+            "font": "font_13:5397"
+          },
+          {
+            "text": "2.2.1",
+            "font": "font_93:189680"
+          },
+          {
+            "text": "）",
+            "font": "font_13:5397"
+          }
+        ],
+        "textColor": [
+          {
+            "start": 0,
+            "end": 12,
+            "color": "paint_13:5070"
+          }
+        ],
+        "textAlign": "left",
+        "textMode": "single-line",
+        "_placeholder": true
+      }
+    ],
+    "components": [],
+    "rowTexts": [
+      {
+        "text": "目标示教 （2.2.1）",
+        "_placeholder": true
+      }
+    ],
+    "placeholderTexts": [
+      "目标示教 （2.2.1）"
+    ]
+  },
+  "nodeCount": 1,
+  "componentDocumentLinks": [],
+  "fetchProgress": "Fetched 33/35. MISSING 2 sections: [33,34]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
+}

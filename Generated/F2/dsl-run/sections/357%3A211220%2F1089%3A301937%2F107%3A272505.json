@@ -1,0 +1,59 @@
+{
+  "sectionIndex": 0,
+  "section": {
+    "id": "357:211220/1089:301937/107:272505",
+    "name": "矩形 16",
+    "type": "INSTANCE"
+  },
+  "rootContainer": {
+    "width": "1280px",
+    "minHeight": "1024px",
+    "background": "transparent",
+    "overflow": "hidden",
+    "position": "relative"
+  },
+  "structureSiblingCount": 1,
+  "dsl": {
+    "styles": {
+      "paint_93:193724": {
+        "value": [
+          "linear-gradient(180deg, #DEEFFF 0%, #BDD9F4 100%)"
+        ]
+      }
+    },
+    "nodes": [
+      {
+        "type": "INSTANCE",
+        "id": "357:211220/1089:301937/107:272505",
+        "name": "矩形 16",
+        "layoutStyle": {
+          "width": 1280,
+          "height": 1024,
+          "relativeX": 0,
+          "relativeY": 0
+        },
+        "componentInfo": {},
+        "children": [
+          {
+            "type": "LAYER",
+            "id": "357:211220/1089:301937/107:272505/93:172750",
+            "name": "矩形 16",
+            "layoutStyle": {
+              "width": 1280,
+              "height": 1024,
+              "relativeX": 0,
+              "relativeY": 0
+            },
+            "fill": "paint_93:193724",
+            "_color": "linear-gradient(180deg, #DEEFFF 0%, #BDD9F4 100%)"
+          }
+        ],
+        "componentId": "93:185028"
+      }
+    ],
+    "components": []
+  },
+  "nodeCount": 2,
+  "componentDocumentLinks": [],
+  "fetchProgress": "Fetched 1/35. MISSING 34 sections: [1,2,3,4,5,6,7,8,9,10... +24 more]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
+}

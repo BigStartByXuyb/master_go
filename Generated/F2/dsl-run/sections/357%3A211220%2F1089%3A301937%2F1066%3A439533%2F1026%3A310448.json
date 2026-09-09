@@ -1,0 +1,142 @@
+{
+  "sectionIndex": 7,
+  "section": {
+    "id": "357:211220/1089:301937/1066:439533/1026:310448",
+    "name": "顶部栏",
+    "type": "INSTANCE"
+  },
+  "rootContainer": {
+    "width": "1280px",
+    "minHeight": "1024px",
+    "background": "transparent",
+    "overflow": "hidden",
+    "position": "relative"
+  },
+  "structureSiblingCount": 1,
+  "dsl": {
+    "styles": {
+      "effect_17:25760": {
+        "value": []
+      },
+      "effect_93:196684": {
+        "value": [
+          "box-shadow: inset 1px 1px 0px 0px rgba(255, 255, 255, 0.8);",
+          "box-shadow: 2px 2px 0px 0px #608CB5;"
+        ]
+      },
+      "paint_374:128498": {
+        "value": [
+          "#004EA2"
+        ]
+      },
+      "paint_921:452131": {
+        "value": [
+          "linear-gradient(180deg, #D0EAFF 0%, #D0EAFF 42%, #B5D5F0 98%)"
+        ]
+      }
+    },
+    "nodes": [
+      {
+        "type": "INSTANCE",
+        "id": "357:211220/1089:301937/1066:439533/1026:310448",
+        "name": "顶部栏",
+        "layoutStyle": {
+          "width": 114,
+          "height": 100,
+          "relativeX": 0,
+          "relativeY": 0
+        },
+        "componentInfo": {
+          "properties": {
+            "属性 1": "logo"
+          }
+        },
+        "children": [
+          {
+            "type": "INSTANCE",
+            "id": "357:211220/1089:301937/1066:439533/1026:310448/1066:291902",
+            "name": "组 2497",
+            "layoutStyle": {
+              "width": 114,
+              "height": 100,
+              "relativeX": 0,
+              "relativeY": 0
+            },
+            "componentInfo": {},
+            "children": [
+              {
+                "type": "GROUP",
+                "id": "357:211220/1089:301937/1066:439533/1026:310448/1066:291902/1066:291885",
+                "name": "组 2489",
+                "layoutStyle": {
+                  "width": 114,
+                  "height": 100,
+                  "relativeX": 0,
+                  "relativeY": 0
+                },
+                "children": [
+                  {
+                    "type": "INSTANCE",
+                    "id": "357:211220/1089:301937/1066:439533/1026:310448/1066:291902/1066:291885/1066:291886",
+                    "name": "矩形 117",
+                    "layoutStyle": {
+                      "width": 114,
+                      "height": 100,
+                      "relativeX": 0,
+                      "relativeY": 0
+                    },
+                    "effect": "effect_17:25760",
+                    "componentInfo": {},
+                    "children": [
+                      {
+                        "type": "LAYER",
+                        "id": "357:211220/1089:301937/1066:439533/1026:310448/1066:291902/1066:291885/1066:291886/93:184986",
+                        "name": "背景区域",
+                        "layoutStyle": {
+                          "width": 152,
+                          "height": 84,
+                          "relativeX": 0,
+                          "relativeY": 0
+                        },
+                        "borderRadius": "8px",
+                        "fill": "paint_921:452131",
+                        "_color": "linear-gradient(180deg, #D0EAFF 0%, #D0EAFF 42%, #B5D5F0 98%)",
+                        "effect": "effect_93:196684"
+                      }
+                    ],
+                    "componentId": "93:185032"
+                  },
+                  {
+                    "type": "PATH",
+                    "id": "357:211220/1089:301937/1066:439533/1026:310448/1066:291902/1066:291885/1066:291887",
+                    "name": "路径 127",
+                    "layoutStyle": {
+                      "width": 90,
+                      "height": 47.999755859375,
+                      "relativeX": 12,
+                      "relativeY": 26
+                    },
+                    "svgKey": "S7:顶部栏|357:211220/1089:301937/1066:439533/1026:310448/1066:291902/1066:291885/1066:291887",
+                    "svgShortKey": "S7#0",
+                    "svgName": "顶部栏"
+                  }
+                ]
+              }
+            ],
+            "componentId": "1066:291884"
+          }
+        ],
+        "componentId": "1066:291901",
+        "_variantProps": {
+          "属性 1": "logo"
+        }
+      }
+    ],
+    "components": []
+  },
+  "nodeCount": 6,
+  "svgNodeCount": 1,
+  "hasStrippedSvgs": true,
+  "componentDocumentLinks": [],
+  "fetchProgress": "Fetched 8/35. MISSING 27 sections: [8,9,10,11,12,13,14,15,16,17... +17 more]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
+}

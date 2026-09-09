@@ -1,0 +1,21 @@
+{
+  "schemaVersion": "mtslg-keys/1",
+  "pageTarget": "F2Teach",
+  "status": "pending-runtime-confirmation",
+  "styles": ["SmallButton", "RightButtonStyle"],
+  "icons": [
+    "F2Icon01Geometry",
+    "F2Icon02Geometry",
+    "F2Icon03Geometry",
+    "F2Icon04Geometry"
+  ],
+  "langNames": [],
+  "pageTargets": ["ManualOperation", "F2Teach"],
+  "ioNames": [],
+  "ioCommands": [],
+  "evidence": [
+    "Generated/F2Teach.mapping.json",
+    "Generated/F2Teach.icon-map.json",
+    "Resources/Files/Layout.xml"
+  ]
+}

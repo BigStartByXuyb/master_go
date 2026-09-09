@@ -1,0 +1,154 @@
+{
+  "sectionIndex": 27,
+  "section": {
+    "id": "357:211220/1066:334037",
+    "name": "右侧栏",
+    "type": "INSTANCE"
+  },
+  "rootContainer": {
+    "width": "1280px",
+    "minHeight": "1024px",
+    "background": "transparent",
+    "overflow": "hidden",
+    "position": "relative"
+  },
+  "structureSiblingCount": 1,
+  "dsl": {
+    "styles": {
+      "effect_921:586531": {
+        "value": [
+          "box-shadow: 0px 2px 2px 0px #000000;"
+        ]
+      },
+      "font_10:79359": {
+        "value": {
+          "family": "Arial",
+          "size": 24,
+          "style": "{\"fontStyle\":\"Bold\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "none",
+          "lineHeight": "24",
+          "letterSpacing": "auto",
+          "weight": "700"
+        }
+      },
+      "paint_113:137132": {
+        "value": [
+          "linear-gradient(180deg, #FF7070 0%, #E82700 69%, #FF0C0C 100%)"
+        ]
+      },
+      "paint_299:245402": {
+        "value": [
+          "#FFFFFF"
+        ]
+      }
+    },
+    "nodes": [
+      {
+        "type": "INSTANCE",
+        "id": "357:211220/1066:334037",
+        "name": "右侧栏",
+        "layoutStyle": {
+          "width": 170,
+          "height": 80,
+          "relativeX": 0,
+          "relativeY": 0
+        },
+        "componentInfo": {
+          "properties": {
+            "按钮类型": "stop"
+          }
+        },
+        "children": [
+          {
+            "type": "INSTANCE",
+            "id": "357:211220/1066:334037/1158:328066",
+            "name": "stop",
+            "layoutStyle": {
+              "width": 170,
+              "height": 80,
+              "relativeX": 0,
+              "relativeY": 0
+            },
+            "componentInfo": {},
+            "children": [
+              {
+                "type": "LAYER",
+                "id": "357:211220/1066:334037/1158:328066/1066:249768",
+                "name": "背景框",
+                "layoutStyle": {
+                  "width": 170,
+                  "height": 80,
+                  "relativeX": 0,
+                  "relativeY": 0
+                },
+                "borderRadius": "8px",
+                "fill": "paint_113:137132",
+                "_color": "linear-gradient(180deg, #FF7070 0%, #E82700 69%, #FF0C0C 100%)",
+                "effect": "effect_921:586531"
+              },
+              {
+                "type": "TEXT",
+                "id": "357:211220/1066:334037/1158:328066/1066:249764",
+                "name": "固定文本框",
+                "layoutStyle": {
+                  "width": 65,
+                  "height": 24,
+                  "relativeX": 72,
+                  "relativeY": 28
+                },
+                "fill": "paint_299:245402",
+                "_color": "#FFFFFF",
+                "text": [
+                  {
+                    "text": "STOP",
+                    "font": "font_10:79359"
+                  }
+                ],
+                "textColor": [
+                  {
+                    "start": 0,
+                    "end": 4,
+                    "color": "paint_299:245402"
+                  }
+                ],
+                "textAlign": "center",
+                "textMode": "single-line"
+              },
+              {
+                "type": "LAYER",
+                "id": "357:211220/1066:334037/1158:328066/1066:249769",
+                "name": "icon区域",
+                "layoutStyle": {
+                  "width": 32,
+                  "height": 32,
+                  "relativeX": 24,
+                  "relativeY": 24
+                },
+                "borderRadius": "2px",
+                "fill": "paint_299:245402",
+                "_color": "#FFFFFF"
+              }
+            ],
+            "componentId": "1066:249763"
+          }
+        ],
+        "componentId": "1158:328065",
+        "_variantProps": {
+          "按钮类型": "stop"
+        }
+      }
+    ],
+    "components": [],
+    "rowTexts": [
+      {
+        "text": "STOP",
+        "parentType": "INSTANCE",
+        "parentName": "stop"
+      }
+    ]
+  },
+  "nodeCount": 5,
+  "componentDocumentLinks": [],
+  "fetchProgress": "Fetched 29/35. MISSING 6 sections: [29,30,31,32,33,34]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
+}

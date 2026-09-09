@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "mastergo-dsl-coverage/1",
+  "runId": "20260909114035-369219f1",
+  "status": "complete",
+  "expectedSectionCount": 35,
+  "successfulSectionCount": 35,
+  "missing": [],
+  "failed": [],
+  "invalid": [],
+  "expectedNodeCount": 333,
+  "capturedNodeCount": 333,
+  "sourceNodeCountMismatch": [],
+  "duplicateNodeRefs": [],
+  "unknownParentRefs": [],
+  "checkedAt": "2026-09-09T03:40:36.0992793Z"
+}

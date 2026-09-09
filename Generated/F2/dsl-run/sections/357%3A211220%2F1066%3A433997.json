@@ -1,0 +1,76 @@
+{
+  "sectionIndex": 24,
+  "section": {
+    "id": "357:211220/1066:433997",
+    "name": "固定文本框",
+    "type": "TEXT"
+  },
+  "rootContainer": {
+    "width": "1280px",
+    "minHeight": "1024px",
+    "background": "transparent",
+    "overflow": "hidden",
+    "position": "relative"
+  },
+  "structureSiblingCount": 1,
+  "dsl": {
+    "styles": {
+      "font_113:100626": {
+        "value": {
+          "family": "DIN Alternate",
+          "size": 18,
+          "style": "{\"fontStyle\":\"Bold\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "none",
+          "lineHeight": "18",
+          "letterSpacing": "auto",
+          "weight": "700"
+        }
+      },
+      "paint_13:5070": {
+        "value": [
+          "#000000"
+        ]
+      }
+    },
+    "nodes": [
+      {
+        "type": "TEXT",
+        "id": "357:211220/1066:433997",
+        "name": "固定文本框",
+        "layoutStyle": {
+          "width": 54,
+          "height": 18,
+          "relativeX": 0,
+          "relativeY": 0
+        },
+        "fill": "paint_13:5070",
+        "_color": "#000000",
+        "text": [
+          {
+            "text": "低倍率",
+            "font": "font_113:100626"
+          }
+        ],
+        "textColor": [
+          {
+            "start": 0,
+            "end": 3,
+            "color": "paint_13:5070"
+          }
+        ],
+        "textAlign": "left",
+        "textMode": "single-line"
+      }
+    ],
+    "components": [],
+    "rowTexts": [
+      {
+        "text": "低倍率"
+      }
+    ]
+  },
+  "nodeCount": 1,
+  "componentDocumentLinks": [],
+  "fetchProgress": "Fetched 25/35. MISSING 10 sections: [25,26,27,28,29,30,31,32,33,34]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
+}

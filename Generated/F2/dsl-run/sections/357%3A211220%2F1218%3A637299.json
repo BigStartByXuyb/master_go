@@ -1,0 +1,188 @@
+{
+  "sectionIndex": 14,
+  "section": {
+    "id": "357:211220/1218:637299",
+    "name": "非首页-长方形",
+    "type": "INSTANCE"
+  },
+  "rootContainer": {
+    "width": "1280px",
+    "minHeight": "1024px",
+    "background": "transparent",
+    "overflow": "hidden",
+    "position": "relative"
+  },
+  "structureSiblingCount": 1,
+  "dsl": {
+    "styles": {
+      "effect_17:25760": {
+        "value": []
+      },
+      "effect_93:196684": {
+        "value": [
+          "box-shadow: inset 1px 1px 0px 0px rgba(255, 255, 255, 0.8);",
+          "box-shadow: 2px 2px 0px 0px #608CB5;"
+        ]
+      },
+      "font_10:15624": {
+        "value": {
+          "family": "DIN Alternate",
+          "size": 20,
+          "style": "{\"fontStyle\":\"Bold\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "none",
+          "lineHeight": "20",
+          "letterSpacing": "auto",
+          "weight": "700"
+        }
+      },
+      "font_1218:204384": {
+        "value": {
+          "family": "Alibaba PuHuiTi 2.0",
+          "size": 16,
+          "style": "{\"fontStyle\":\"65 Medium\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "none",
+          "lineHeight": "16",
+          "letterSpacing": "auto",
+          "weight": "500"
+        }
+      },
+      "paint_921:452131": {
+        "value": [
+          "linear-gradient(180deg, #D0EAFF 0%, #D0EAFF 42%, #B5D5F0 98%)"
+        ]
+      },
+      "paint_921:523990": {
+        "value": [
+          "#000000"
+        ]
+      }
+    },
+    "nodes": [
+      {
+        "type": "INSTANCE",
+        "id": "357:211220/1218:637299",
+        "name": "非首页-长方形",
+        "layoutStyle": {
+          "width": 180,
+          "height": 84,
+          "relativeX": 0,
+          "relativeY": 0
+        },
+        "componentInfo": {
+          "properties": {
+            "显示文案": false,
+            "显示F": false
+          }
+        },
+        "children": [
+          {
+            "type": "INSTANCE",
+            "id": "357:211220/1218:637299/1218:338310",
+            "name": "背景区域",
+            "layoutStyle": {
+              "width": 180,
+              "height": 84,
+              "relativeX": 0,
+              "relativeY": 0
+            },
+            "effect": "effect_17:25760",
+            "componentInfo": {},
+            "children": [
+              {
+                "type": "LAYER",
+                "id": "357:211220/1218:637299/1218:338310/1026:394538",
+                "name": "背景区域",
+                "layoutStyle": {
+                  "width": 152,
+                  "height": 84,
+                  "relativeX": 0,
+                  "relativeY": 0
+                },
+                "borderRadius": "8px",
+                "fill": "paint_921:452131",
+                "_color": "linear-gradient(180deg, #D0EAFF 0%, #D0EAFF 42%, #B5D5F0 98%)",
+                "effect": "effect_93:196684"
+              }
+            ],
+            "componentId": "1026:394537"
+          },
+          {
+            "type": "TEXT",
+            "id": "357:211220/1218:637299/1218:338305",
+            "name": "固定文本框",
+            "layoutStyle": {
+              "width": 152,
+              "height": 16,
+              "relativeX": 14,
+              "relativeY": 56
+            },
+            "fill": "paint_921:523990",
+            "_color": "#000000",
+            "text": [
+              {
+                "text": "工件边缘录入",
+                "font": "font_1218:204384"
+              }
+            ],
+            "textColor": [
+              {
+                "start": 0,
+                "end": 6,
+                "color": "paint_921:523990"
+              }
+            ],
+            "textAlign": "center",
+            "textMode": "auto-height"
+          },
+          {
+            "type": "TEXT",
+            "id": "357:211220/1218:637299/1218:338311",
+            "name": "F1",
+            "layoutStyle": {
+              "width": 21,
+              "height": 20,
+              "relativeX": 8,
+              "relativeY": 8
+            },
+            "fill": "paint_921:523990",
+            "_color": "#000000",
+            "text": [
+              {
+                "text": "F3",
+                "font": "font_10:15624"
+              }
+            ],
+            "textColor": [
+              {
+                "start": 0,
+                "end": 2,
+                "color": "paint_921:523990"
+              }
+            ],
+            "textAlign": "left",
+            "textMode": "single-line"
+          }
+        ],
+        "componentId": "1218:338304"
+      }
+    ],
+    "components": [],
+    "rowTexts": [
+      {
+        "text": "工件边缘录入",
+        "parentType": "INSTANCE",
+        "parentName": "非首页-长方形"
+      },
+      {
+        "text": "F3",
+        "parentType": "INSTANCE",
+        "parentName": "非首页-长方形"
+      }
+    ]
+  },
+  "nodeCount": 5,
+  "componentDocumentLinks": [],
+  "fetchProgress": "Fetched 15/35. MISSING 20 sections: [15,16,17,18,19,20,21,22,23,24... +10 more]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
+}

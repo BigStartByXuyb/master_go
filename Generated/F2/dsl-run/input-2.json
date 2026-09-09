@@ -1,0 +1,50 @@
+{
+  "sectionIndex": 2,
+  "section": {
+    "id": "357:211220/1089:301937/1066:439533/107:186969",
+    "name": "矩形 5",
+    "type": "LAYER"
+  },
+  "rootContainer": {
+    "width": "1280px",
+    "minHeight": "1024px",
+    "background": "transparent",
+    "overflow": "hidden",
+    "position": "relative"
+  },
+  "structureSiblingCount": 1,
+  "dsl": {
+    "styles": {
+      "effect_17:65265": {
+        "value": [
+          "box-shadow: 0px 2px 0px 0px #B3D1EA;"
+        ]
+      },
+      "paint_93:187064": {
+        "value": [
+          "#B6D3EE"
+        ]
+      }
+    },
+    "nodes": [
+      {
+        "type": "LAYER",
+        "id": "357:211220/1089:301937/1066:439533/107:186969",
+        "name": "矩形 5",
+        "layoutStyle": {
+          "width": 1280,
+          "height": 126,
+          "relativeX": 0,
+          "relativeY": 0
+        },
+        "fill": "paint_93:187064",
+        "_color": "#B6D3EE",
+        "effect": "effect_17:65265"
+      }
+    ],
+    "components": []
+  },
+  "nodeCount": 1,
+  "componentDocumentLinks": [],
+  "fetchProgress": "Fetched 2/35. MISSING 33 sections: [1,3,4,5,6,7,8,9,10,11... +23 more]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
+}

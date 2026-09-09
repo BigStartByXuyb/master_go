@@ -21,7 +21,21 @@
           <MenuItem Name="工作台真空" Icon="WorktableVacuumGeometry" Index="12" />
         </Menu>
       </Page>
-    </Pages>
+    <Page Target="F2Teach" LangName="">
+    <Menu>
+      <MenuItem Name="新建示教" LangName="" TopLeftContent="F1" Index="0" />
+      <MenuItem Name="" LangName="" TopLeftContent="" Index="1" />
+      <MenuItem Name="" LangName="" TopLeftContent="" Index="2" />
+      <MenuItem Name="工件边缘录入" LangName="" TopLeftContent="F3" Index="3" />
+      <MenuItem Name="θ 角校正" LangName="" TopLeftContent="F5" Index="4" />
+      <MenuItem Name="自动影像示教" LangName="" TopLeftContent="F6" Index="5" />
+      <MenuItem Name="调光" LangName="" TopLeftContent="F7" Index="6" />
+      <MenuItem Name="自动示教" LangName="" TopLeftContent="F9" Index="7" />
+      <MenuItem Name="对焦" LangName="" TopLeftContent="F8" Index="8" />
+      <MenuItem Name="倍率变更" LangName="" TopLeftContent="F10" Index="9" />
+    </Menu>
+  </Page>
+</Pages>
   </Body>
 </Layout>
 

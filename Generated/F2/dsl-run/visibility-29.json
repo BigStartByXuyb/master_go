@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "mastergo-visibility-audit/1",
+  "input": "D:\\agent_xy\\tu\\master_go\\Generated\\F2\\dsl-run\\input-29.json",
+  "nodeCount": 7,
+  "nodes": [
+    {
+      "ref": "357:211220/1066:334073",
+      "parentRef": null,
+      "type": "INSTANCE",
+      "name": "右侧栏",
+      "text": null,
+      "explicitVisible": null,
+      "visibilityProperty": null,
+      "visibilityRaw": null,
+      "defaultVisible": true,
+      "effectiveVisible": true,
+      "visibilitySourceRef": null,
+      "sourcePath": "$root.section"
+    },
+    {
+      "ref": "357:211220/1066:334073",
+      "parentRef": null,
+      "type": "INSTANCE",
+      "name": "右侧栏",
+      "text": null,
+      "explicitVisible": null,
+      "visibilityProperty": null,
+      "visibilityRaw": null,
+      "defaultVisible": true,
+      "effectiveVisible": true,
+      "visibilitySourceRef": null,
+      "sourcePath": "$root.dsl.nodes[0]"
+    },
+    {
+      "ref": "357:211220/1066:334073/1158:328076",
+      "parentRef": "357:211220/1066:334073",
+      "type": "INSTANCE",
+      "name": "enter",
+      "text": null,
+      "explicitVisible": null,
+      "visibilityProperty": null,
+      "visibilityRaw": null,
+      "defaultVisible": true,
+      "effectiveVisible": true,
+      "visibilitySourceRef": null,
+      "sourcePath": "$root.dsl.nodes[0].children"
+    },
+    {
+      "ref": "357:211220/1066:334073/1158:328076/1066:249751",
+      "parentRef": "357:211220/1066:334073/1158:328076",
+      "type": "LAYER",
+      "name": "背景区域",
+      "text": null,
+      "explicitVisible": null,
+      "visibilityProperty": null,
+      "visibilityRaw": null,
+      "defaultVisible": true,
+      "effectiveVisible": true,
+      "visibilitySourceRef": null,
+      "sourcePath": "$root.dsl.nodes[0].children.children"
+    },
+    {
+      "ref": "357:211220/1066:334073/1158:328076/1066:249745",
+      "parentRef": "357:211220/1066:334073/1158:328076",
+      "type": "TEXT",
+      "name": "固定文本框",
+      "text": "ENTER",
+      "explicitVisible": null,
+      "visibilityProperty": null,
+      "visibilityRaw": null,
+      "defaultVisible": true,
+      "effectiveVisible": true,
+      "visibilitySourceRef": null,
+      "sourcePath": "$root.dsl.nodes[0].children.children"
+    },
+    {
+      "ref": "357:211220/1066:334073/1158:328076/1066:249749",
+      "parentRef": "357:211220/1066:334073/1158:328076",
+      "type": "GROUP",
+      "name": "icon区域",
+      "text": null,
+      "explicitVisible": null,
+      "visibilityProperty": null,
+      "visibilityRaw": null,
+      "defaultVisible": true,
+      "effectiveVisible": true,
+      "visibilitySourceRef": null,
+      "sourcePath": "$root.dsl.nodes[0].children.children"
+    },
+    {
+      "ref": "357:211220/1066:334073/1158:328076/1066:249749/1066:249750",
+      "parentRef": "357:211220/1066:334073/1158:328076/1066:249749",
+      "type": "PATH",
+      "name": "icon区域",
+      "text": null,
+      "explicitVisible": null,
+      "visibilityProperty": null,
+      "visibilityRaw": null,
+      "defaultVisible": true,
+      "effectiveVisible": true,
+      "visibilitySourceRef": null,
+      "sourcePath": "$root.dsl.nodes[0].children.children.children"
+    }
+  ],
+  "texts": [
+    {
+      "ref": "357:211220/1066:334073/1158:328076/1066:249745",
+      "parentRef": "357:211220/1066:334073/1158:328076",
+      "type": "TEXT",
+      "name": "固定文本框",
+      "text": "ENTER",
+      "explicitVisible": null,
+      "visibilityProperty": null,
+      "visibilityRaw": null,
+      "defaultVisible": true,
+      "effectiveVisible": true,
+      "visibilitySourceRef": null,
+      "sourcePath": "$root.dsl.nodes[0].children.children"
+    }
+  ],
+  "paths": [
+    {
+      "ref": "357:211220/1066:334073/1158:328076/1066:249749/1066:249750",
+      "parentRef": "357:211220/1066:334073/1158:328076/1066:249749",
+      "type": "PATH",
+      "name": "icon区域",
+      "text": null,
+      "explicitVisible": null,
+      "visibilityProperty": null,
+      "visibilityRaw": null,
+      "defaultVisible": true,
+      "effectiveVisible": true,
+      "visibilitySourceRef": null,
+      "sourcePath": "$root.dsl.nodes[0].children.children.children"
+    }
+  ]
+}

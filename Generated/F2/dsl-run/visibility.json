@@ -1,0 +1,23 @@
+{
+  "schemaVersion": "mastergo-visibility-audit/1",
+  "input": "D:\\agent_xy\\tu\\master_go\\Generated\\F2\\dsl-run\\dsl.snapshot.json",
+  "nodeCount": 1,
+  "nodes": [
+    {
+      "ref": "357:211220",
+      "parentRef": null,
+      "type": null,
+      "name": null,
+      "text": null,
+      "explicitVisible": null,
+      "visibilityProperty": null,
+      "visibilityRaw": null,
+      "defaultVisible": true,
+      "effectiveVisible": true,
+      "visibilitySourceRef": null,
+      "sourcePath": "$root"
+    }
+  ],
+  "texts": [],
+  "paths": []
+}

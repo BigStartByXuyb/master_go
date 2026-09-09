@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<IOContorl
+    ID=""
+    Left="NaN"
+    Top="NaN"
+    Width="NaN"
+    Height="NaN">
+    <!-- 选择框-40 -->
+    <IOContorl
+        ID="F2_001_ComboBox"
+        ControlType="ComboBox"
+        LangName=""
+        Value="Auto"
+        IOName=""
+        IOCommand=""
+        IOState=""
+        IOEnable=""
+        Left="766"
+        Top="40"
+        Width="276"
+        Height="40" />
+    <!-- 固定文本框 -->
+    <IOContorl
+        ID="F2_002_Text"
+        ControlType="TextBlock"
+        LangName=""
+        Value="镜头倍率"
+        IOName=""
+        IOState=""
+        IOEnable=""
+        FontSize="16"
+        Left="687"
+        Top="10"
+        Width="63"
+        Height="40" />
+    <!-- 固定文本框 -->
+    <IOContorl
+        ID="F2_003_Text"
+        ControlType="TextBlock"
+        LangName=""
+        Value="光源通道"
+        IOName=""
+        IOState=""
+        IOEnable=""
+        FontSize="16"
+        Left="687"
+        Top="52"
+        Width="63"
+        Height="40" />
+    <!-- 固定文本框 -->
+    <IOContorl
+        ID="F2_004_Text"
+        ControlType="TextBlock"
+        LangName=""
+        Value="低倍率"
+        IOName=""
+        IOState=""
+        IOEnable=""
+        FontSize="18"
+        Left="766"
+        Top="10"
+        Width="54"
+        Height="40" />
+    <!-- 加减快捷键-无标题 -->
+    <IOContorl
+        ID="F2_005_Small0"
+        ControlType="IconButton"
+        Style="SmallButton"
+        LangName=""
+        Value="+5"
+        IOName=""
+        IOCommand=""
+        IOState=""
+        IOEnable=""
+        Left="766"
+        Top="351"
+        Width="60"
+        Height="60" />
+    <!-- 加减快捷键-无标题 -->
+    <IOContorl
+        ID="F2_006_Small1"
+        ControlType="IconButton"
+        Style="SmallButton"
+        LangName=""
+        Value="-5"
+        IOName=""
+        IOCommand=""
+        IOState=""
+        IOEnable=""
+        Left="838"
+        Top="351"
+        Width="60"
+        Height="60" />
+    <!-- 加减快捷键-无标题 -->
+    <IOContorl
+        ID="F2_007_Small2"
+        ControlType="IconButton"
+        Style="SmallButton"
+        LangName=""
+        Value="+1"
+        IOName=""
+        IOCommand=""
+        IOState=""
+        IOEnable=""
+        Left="910"
+        Top="351"
+        Width="60"
+        Height="60" />
+    <!-- 加减快捷键-无标题 -->
+    <IOContorl
+        ID="F2_008_Small3"
+        ControlType="IconButton"
+        Style="SmallButton"
+        LangName=""
+        Value="-1"
+        IOName=""
+        IOCommand=""
+        IOState=""
+        IOEnable=""
+        Left="982"
+        Top="351"
+        Width="60"
+        Height="60" />
+    <!-- 9.0% -->
+    <IOContorl
+        ID="F2_009_Text"
+        ControlType="TextBlock"
+        LangName=""
+        Value="64"
+        IOName=""
+        IOState=""
+        IOEnable=""
+        FontSize="28"
+        Left="715"
+        Top="383"
+        Width="28"
+        Height="40" />
+    <!-- Dir -->
+    <IOContorl
+        ID="F2_010_Text"
+        ControlType="TextBlock"
+        LangName=""
+        Value="Y-size"
+        IOName=""
+        IOState=""
+        IOEnable=""
+        FontSize="16"
+        Left="729"
+        Top="357"
+        Width="43"
+        Height="40" />
+    <!-- 轴操作 -->
+    <IOContorl
+        ID="F2_011_"
+        ControlType="IconButton"
+        Icon="F2Icon01Geometry"
+        IOName=""
+        IOCommand=""
+        IOState=""
+        IOEnable=""
+        Left="830"
+        Top="468"
+        Width="100"
+        Height="60" />
+    <!-- 轴操作 -->
+    <IOContorl
+        ID="F2_012_"
+        ControlType="IconButton"
+        Icon="F2Icon02Geometry"
+        IOName=""
+        IOCommand=""
+        IOState=""
+        IOEnable=""
+        Left="718"
+        Top="504"
+        Width="100"
+        Height="60" />
+    <!-- 轴操作 -->
+    <IOContorl
+        ID="F2_013_"
+        ControlType="IconButton"
+        IOName=""
+        IOCommand=""
+        IOState=""
+        IOEnable=""
+        Left="942"
+        Top="504"
+        Width="100"
+        Height="60" />
+    <!-- 轴操作 -->
+    <IOContorl
+        ID="F2_014_"
+        ControlType="IconButton"
+        IOName=""
+        IOCommand=""
+        IOState=""
+        IOEnable=""
+        Left="830"
+        Top="540"
+        Width="100"
+        Height="60" />
+    <!-- SCAN -->
+    <IOContorl
+        ID="F2_015_Text"
+        ControlType="TextBlock"
+        LangName=""
+        Value="SCAN"
+        IOName=""
+        IOState=""
+        IOEnable=""
+        FontSize="20"
+        Left="658"
+        Top="468"
+        Width="50"
+        Height="40" />
+    <!-- 右侧栏-stop -->
+    <IOContorl
+        ID="F2_016_stop"
+        ControlType="IconButton"
+        Style="RightButtonStyle"
+        LangName=""
+        TopLeftContent=""
+        Value="STOP"
+        IOName=""
+        IOCommand=""
+        IOState=""
+        IOEnable=""
+        Left="1090"
+        Top="90"
+        Width="170"
+        Height="80" />
+    <!-- 右侧栏-文案 大button -->
+    <IOContorl
+        ID="F2_017_button"
+        ControlType="IconButton"
+        LangName=""
+        TopLeftContent=""
+        Value="文案"
+        IOName=""
+        IOCommand=""
+        IOState=""
+        IOEnable=""
+        Left="1090"
+        Top="-10"
+        Width="170"
+        Height="80" />
+    <!-- 右侧栏-enter -->
+    <IOContorl
+        ID="F2_018_enter"
+        ControlType="IconButton"
+        Style="RightButtonStyle"
+        Icon="F2Icon03Geometry"
+        LangName=""
+        TopLeftContent=""
+        Value="ENTER"
+        IOName=""
+        IOCommand=""
+        IOState=""
+        IOEnable=""
+        Left="1090"
+        Top="414"
+        Width="170"
+        Height="80" />
+    <!-- 右侧栏-exit -->
+    <IOContorl
+        ID="F2_019_exit"
+        ControlType="IconButton"
+        Style="RightButtonStyle"
+        Icon="F2Icon04Geometry"
+        LangName=""
+        TopLeftContent=""
+        Value="EXIT"
+        IOName=""
+        IOCommand=""
+        IOState=""
+        IOEnable=""
+        Left="1090"
+        Top="522"
+        Width="170"
+        Height="80" />
+    <!-- 加减快捷操作-有标题 -->
+    <IOContorl
+        ID="F2_020_Light33_0"
+        ControlType="IconButton"
+        Style="SmallButton"
+        LangName=""
+        Value="+5"
+        IOName=""
+        IOCommand=""
+        IOState=""
+        IOEnable=""
+        Left="766"
+        Top="143"
+        Width="60"
+        Height="60" />
+    <!-- 加减快捷操作-有标题 -->
+    <IOContorl
+        ID="F2_021_Light33_1"
+        ControlType="IconButton"
+        Style="SmallButton"
+        LangName=""
+        Value="-5"
+        IOName=""
+        IOCommand=""
+        IOState=""
+        IOEnable=""
+        Left="838"
+        Top="143"
+        Width="60"
+        Height="60" />
+    <!-- 加减快捷操作-有标题 -->
+    <IOContorl
+        ID="F2_022_Light33_2"
+        ControlType="IconButton"
+        Style="SmallButton"
+        LangName=""
+        Value="+1"
+        IOName=""
+        IOCommand=""
+        IOState=""
+        IOEnable=""
+        Left="910"
+        Top="143"
+        Width="60"
+        Height="60" />
+    <!-- 加减快捷操作-有标题 -->
+    <IOContorl
+        ID="F2_023_Light33_3"
+        ControlType="IconButton"
+        Style="SmallButton"
+        LangName=""
+        Value="-1"
+        IOName=""
+        IOCommand=""
+        IOState=""
+        IOEnable=""
+        Left="982"
+        Top="143"
+        Width="60"
+        Height="60" />
+    <!-- 光源调整 -->
+    <IOContorl
+        ID="F2_024_Text"
+        ControlType="TextBlock"
+        LangName=""
+        Value="光源调整"
+        IOName=""
+        IOState=""
+        IOEnable=""
+        FontSize="20"
+        Left="658"
+        Top="115"
+        Width="79"
+        Height="40" />
+    <!-- 9.0% -->
+    <IOContorl
+        ID="F2_025_Text"
+        ControlType="TextBlock"
+        LangName=""
+        Value="9.0%"
+        IOName=""
+        IOState=""
+        IOEnable=""
+        FontSize="28"
+        Left="700"
+        Top="175"
+        Width="50"
+        Height="40" />
+    <!-- Dir -->
+    <IOContorl
+        ID="F2_026_Text"
+        ControlType="TextBlock"
+        LangName=""
+        Value="Dir"
+        IOName=""
+        IOState=""
+        IOEnable=""
+        FontSize="16"
+        Left="729"
+        Top="149"
+        Width="21"
+        Height="40" />
+    <!-- 加减快捷操作-有标题 -->
+    <IOContorl
+        ID="F2_027_Light34_0"
+        ControlType="IconButton"
+        Style="SmallButton"
+        LangName=""
+        Value="+5"
+        IOName=""
+        IOCommand=""
+        IOState=""
+        IOEnable=""
+        Left="766"
+        Top="271"
+        Width="60"
+        Height="60" />
+    <!-- 加减快捷操作-有标题 -->
+    <IOContorl
+        ID="F2_028_Light34_1"
+        ControlType="IconButton"
+        Style="SmallButton"
+        LangName=""
+        Value="-5"
+        IOName=""
+        IOCommand=""
+        IOState=""
+        IOEnable=""
+        Left="838"
+        Top="271"
+        Width="60"
+        Height="60" />
+    <!-- 加减快捷操作-有标题 -->
+    <IOContorl
+        ID="F2_029_Light34_2"
+        ControlType="IconButton"
+        Style="SmallButton"
+        LangName=""
+        Value="+1"
+        IOName=""
+        IOCommand=""
+        IOState=""
+        IOEnable=""
+        Left="910"
+        Top="271"
+        Width="60"
+        Height="60" />
+    <!-- 加减快捷操作-有标题 -->
+    <IOContorl
+        ID="F2_030_Light34_3"
+        ControlType="IconButton"
+        Style="SmallButton"
+        LangName=""
+        Value="-1"
+        IOName=""
+        IOCommand=""
+        IOState=""
+        IOEnable=""
+        Left="982"
+        Top="271"
+        Width="60"
+        Height="60" />
+    <!-- 光源调整 -->
+    <IOContorl
+        ID="F2_031_Text"
+        ControlType="TextBlock"
+        LangName=""
+        Value="光源调整"
+        IOName=""
+        IOState=""
+        IOEnable=""
+        FontSize="20"
+        Left="658"
+        Top="243"
+        Width="79"
+        Height="40" />
+    <!-- 9.0% -->
+    <IOContorl
+        ID="F2_032_Text"
+        ControlType="TextBlock"
+        LangName=""
+        Value="9.0%"
+        IOName=""
+        IOState=""
+        IOEnable=""
+        FontSize="28"
+        Left="700"
+        Top="303"
+        Width="50"
+        Height="40" />
+    <!-- Dir -->
+    <IOContorl
+        ID="F2_033_Text"
+        ControlType="TextBlock"
+        LangName=""
+        Value="Dir"
+        IOName=""
+        IOState=""
+        IOEnable=""
+        FontSize="16"
+        Left="729"
+        Top="277"
+        Width="21"
+        Height="40" />
+</IOContorl>

@@ -1,0 +1,178 @@
+{
+  "sectionIndex": 21,
+  "section": {
+    "id": "357:211220/1066:434323",
+    "name": "选择框",
+    "type": "INSTANCE"
+  },
+  "rootContainer": {
+    "width": "1280px",
+    "minHeight": "1024px",
+    "background": "transparent",
+    "overflow": "hidden",
+    "position": "relative"
+  },
+  "structureSiblingCount": 1,
+  "dsl": {
+    "styles": {
+      "font_921:554981": {
+        "value": {
+          "family": "Alibaba PuHuiTi 2.0",
+          "size": 18,
+          "style": "{\"fontStyle\":\"65 Medium\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "none",
+          "lineHeight": "18",
+          "letterSpacing": "auto",
+          "weight": "500"
+        }
+      },
+      "paint_13:5070": {
+        "value": [
+          "#000000"
+        ]
+      },
+      "paint_23:79405": {
+        "value": [
+          "#333333"
+        ]
+      },
+      "paint_299:245402": {
+        "value": [
+          "#FFFFFF"
+        ]
+      },
+      "paint_368:146775": {
+        "value": [
+          "#999999"
+        ]
+      }
+    },
+    "nodes": [
+      {
+        "type": "INSTANCE",
+        "id": "357:211220/1066:434323",
+        "name": "选择框",
+        "layoutStyle": {
+          "width": 276,
+          "height": 40,
+          "relativeX": 0,
+          "relativeY": 0
+        },
+        "componentInfo": {
+          "properties": {
+            "属性 1": "选择框-40"
+          }
+        },
+        "children": [
+          {
+            "type": "INSTANCE",
+            "id": "357:211220/1066:434323/1066:429780",
+            "name": "选择框-40",
+            "layoutStyle": {
+              "width": 170,
+              "height": 40,
+              "relativeX": 0,
+              "relativeY": 0
+            },
+            "componentInfo": {},
+            "children": [
+              {
+                "type": "INSTANCE",
+                "id": "357:211220/1066:434323/1066:429780/1066:429762",
+                "name": "选择框",
+                "layoutStyle": {
+                  "width": 170,
+                  "height": 40,
+                  "relativeX": 0,
+                  "relativeY": 0
+                },
+                "flexGrow": 1,
+                "borderRadius": "4px",
+                "flexContainerInfo": {
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "alignItems": "center",
+                  "mainSizing": "fixed",
+                  "crossSizing": "auto",
+                  "gap": "98px",
+                  "padding": "11px 12px"
+                },
+                "fill": "paint_299:245402",
+                "_color": "#FFFFFF",
+                "strokeColor": "paint_23:79405",
+                "strokeType": "solid",
+                "strokeAlign": "inside",
+                "strokeWidth": "1px",
+                "componentInfo": {},
+                "children": [
+                  {
+                    "type": "TEXT",
+                    "id": "357:211220/1066:434323/1066:429780/1066:429762/1066:254356",
+                    "name": "固定文本框",
+                    "layoutStyle": {
+                      "width": 41,
+                      "height": 18,
+                      "relativeX": 12,
+                      "relativeY": 11
+                    },
+                    "fill": "paint_13:5070",
+                    "_color": "#000000",
+                    "text": [
+                      {
+                        "text": "Auto",
+                        "font": "font_921:554981"
+                      }
+                    ],
+                    "textColor": [
+                      {
+                        "start": 0,
+                        "end": 4,
+                        "color": "paint_13:5070"
+                      }
+                    ],
+                    "textAlign": "left",
+                    "textMode": "single-line"
+                  },
+                  {
+                    "type": "PATH",
+                    "id": "357:211220/1066:434323/1066:429780/1066:429762/1066:254360",
+                    "name": "路径",
+                    "layoutStyle": {
+                      "width": 16,
+                      "height": 10,
+                      "relativeX": 142,
+                      "relativeY": 15
+                    },
+                    "svgKey": "S21:选择框|357:211220/1066:434323/1066:429780/1066:429762/1066:254360",
+                    "svgShortKey": "S21#0",
+                    "svgName": "选择框"
+                  }
+                ],
+                "componentId": "1066:254355"
+              }
+            ],
+            "componentId": "1066:429761"
+          }
+        ],
+        "componentId": "1066:429779",
+        "_variantProps": {
+          "属性 1": "选择框-40"
+        }
+      }
+    ],
+    "components": [],
+    "rowTexts": [
+      {
+        "text": "Auto",
+        "parentType": "INSTANCE",
+        "parentName": "选择框"
+      }
+    ]
+  },
+  "nodeCount": 5,
+  "svgNodeCount": 1,
+  "hasStrippedSvgs": true,
+  "componentDocumentLinks": [],
+  "fetchProgress": "Fetched 25/35. MISSING 10 sections: [25,26,27,28,29,30,31,32,33,34]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
+}

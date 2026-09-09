@@ -1,0 +1,161 @@
+{
+  "sectionIndex": 30,
+  "section": {
+    "id": "357:211220/1066:334137",
+    "name": "右侧栏",
+    "type": "INSTANCE"
+  },
+  "rootContainer": {
+    "width": "1280px",
+    "minHeight": "1024px",
+    "background": "transparent",
+    "overflow": "hidden",
+    "position": "relative"
+  },
+  "structureSiblingCount": 1,
+  "dsl": {
+    "styles": {
+      "effect_921:586531": {
+        "value": [
+          "box-shadow: 0px 2px 2px 0px #000000;"
+        ]
+      },
+      "font_10:79359": {
+        "value": {
+          "family": "Arial",
+          "size": 24,
+          "style": "{\"fontStyle\":\"Bold\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "none",
+          "lineHeight": "24",
+          "letterSpacing": "auto",
+          "weight": "700"
+        }
+      },
+      "paint_13:5070": {
+        "value": [
+          "#000000"
+        ]
+      },
+      "paint_231:097447": {
+        "value": [
+          "#040000"
+        ]
+      },
+      "paint_96:142028": {
+        "value": [
+          "linear-gradient(180deg, #FFE851 0%, #F6A400 75%, #FFB710 100%)"
+        ]
+      }
+    },
+    "nodes": [
+      {
+        "type": "INSTANCE",
+        "id": "357:211220/1066:334137",
+        "name": "右侧栏",
+        "layoutStyle": {
+          "width": 170,
+          "height": 80,
+          "relativeX": 0,
+          "relativeY": 0
+        },
+        "componentInfo": {
+          "properties": {
+            "按钮类型": "exit"
+          }
+        },
+        "children": [
+          {
+            "type": "INSTANCE",
+            "id": "357:211220/1066:334137/1158:328061",
+            "name": "exit",
+            "layoutStyle": {
+              "width": 170,
+              "height": 80,
+              "relativeX": 0,
+              "relativeY": 0
+            },
+            "componentInfo": {},
+            "children": [
+              {
+                "type": "LAYER",
+                "id": "357:211220/1066:334137/1158:328061/1066:249739",
+                "name": "背景区域",
+                "layoutStyle": {
+                  "width": 170,
+                  "height": 80,
+                  "relativeX": 0,
+                  "relativeY": 0
+                },
+                "borderRadius": "8px",
+                "fill": "paint_96:142028",
+                "_color": "linear-gradient(180deg, #FFE851 0%, #F6A400 75%, #FFB710 100%)",
+                "effect": "effect_921:586531"
+              },
+              {
+                "type": "TEXT",
+                "id": "357:211220/1066:334137/1158:328061/1066:249740",
+                "name": "固定文本框",
+                "layoutStyle": {
+                  "width": 54,
+                  "height": 24,
+                  "relativeX": 88,
+                  "relativeY": 28
+                },
+                "fill": "paint_13:5070",
+                "_color": "#000000",
+                "text": [
+                  {
+                    "text": "EXIT",
+                    "font": "font_10:79359"
+                  }
+                ],
+                "textColor": [
+                  {
+                    "start": 0,
+                    "end": 4,
+                    "color": "paint_13:5070"
+                  }
+                ],
+                "textAlign": "center",
+                "textMode": "single-line"
+              },
+              {
+                "type": "PATH",
+                "id": "357:211220/1066:334137/1158:328061/1066:249738",
+                "name": "icon区域",
+                "layoutStyle": {
+                  "width": 35,
+                  "height": 32,
+                  "relativeX": 20,
+                  "relativeY": 24
+                },
+                "svgKey": "S30:exit|357:211220/1066:334137/1158:328061/1066:249738",
+                "svgShortKey": "S30#0",
+                "svgName": "exit"
+              }
+            ],
+            "componentId": "1066:249737"
+          }
+        ],
+        "componentId": "1158:328060",
+        "_variantProps": {
+          "按钮类型": "exit"
+        }
+      }
+    ],
+    "components": [],
+    "rowTexts": [
+      {
+        "text": "EXIT",
+        "parentType": "INSTANCE",
+        "parentName": "exit"
+      }
+    ]
+  },
+  "nodeCount": 5,
+  "svgNodeCount": 1,
+  "hasStrippedSvgs": true,
+  "componentDocumentLinks": [],
+  "fetchProgress": "Fetched 32/35. MISSING 3 sections: [32,33,34]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
+}

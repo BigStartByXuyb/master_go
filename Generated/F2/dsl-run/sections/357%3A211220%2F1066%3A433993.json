@@ -1,0 +1,76 @@
+{
+  "sectionIndex": 22,
+  "section": {
+    "id": "357:211220/1066:433993",
+    "name": "固定文本框",
+    "type": "TEXT"
+  },
+  "rootContainer": {
+    "width": "1280px",
+    "minHeight": "1024px",
+    "background": "transparent",
+    "overflow": "hidden",
+    "position": "relative"
+  },
+  "structureSiblingCount": 2,
+  "dsl": {
+    "styles": {
+      "font_1066:203327": {
+        "value": {
+          "family": "Alibaba PuHuiTi 2.0",
+          "size": 16,
+          "style": "{\"fontStyle\":\"55 Regular\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "none",
+          "lineHeight": "16",
+          "letterSpacing": "auto",
+          "weight": "400"
+        }
+      },
+      "paint_23:79405": {
+        "value": [
+          "#333333"
+        ]
+      }
+    },
+    "nodes": [
+      {
+        "type": "TEXT",
+        "id": "357:211220/1066:433993",
+        "name": "固定文本框",
+        "layoutStyle": {
+          "width": 63,
+          "height": 16,
+          "relativeX": 0,
+          "relativeY": 0
+        },
+        "fill": "paint_23:79405",
+        "_color": "#333333",
+        "text": [
+          {
+            "text": "镜头倍率",
+            "font": "font_1066:203327"
+          }
+        ],
+        "textColor": [
+          {
+            "start": 0,
+            "end": 4,
+            "color": "paint_23:79405"
+          }
+        ],
+        "textAlign": "right",
+        "textMode": "single-line"
+      }
+    ],
+    "components": [],
+    "rowTexts": [
+      {
+        "text": "镜头倍率"
+      }
+    ]
+  },
+  "nodeCount": 1,
+  "componentDocumentLinks": [],
+  "fetchProgress": "Fetched 25/35. MISSING 10 sections: [25,26,27,28,29,30,31,32,33,34]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
+}

@@ -1,0 +1,73 @@
+{
+  "sectionIndex": 1,
+  "section": {
+    "id": "357:211220/1089:301937/107:272502",
+    "name": "分割线",
+    "type": "GROUP"
+  },
+  "rootContainer": {
+    "width": "1280px",
+    "minHeight": "1024px",
+    "background": "transparent",
+    "overflow": "hidden",
+    "position": "relative"
+  },
+  "structureSiblingCount": 1,
+  "dsl": {
+    "styles": {
+      "paint_10:3": {
+        "value": [
+          "#FFFFFF"
+        ]
+      },
+      "paint_13:06458": {
+        "value": [
+          "#9EC4DC"
+        ]
+      }
+    },
+    "nodes": [
+      {
+        "type": "GROUP",
+        "id": "357:211220/1089:301937/107:272502",
+        "name": "分割线",
+        "layoutStyle": {
+          "width": 2,
+          "height": 694,
+          "relativeX": 0,
+          "relativeY": 0
+        },
+        "children": [
+          {
+            "type": "LAYER",
+            "id": "357:211220/1089:301937/107:272502/107:272504",
+            "name": "矩形 4",
+            "layoutStyle": {
+              "height": 900,
+              "relativeX": 1,
+              "relativeY": 0
+            },
+            "fill": "paint_10:3",
+            "_color": "#FFFFFF"
+          },
+          {
+            "type": "LAYER",
+            "id": "357:211220/1089:301937/107:272502/107:272503",
+            "name": "矩形 52",
+            "layoutStyle": {
+              "height": 900,
+              "relativeX": 0,
+              "relativeY": 0
+            },
+            "fill": "paint_13:06458",
+            "_color": "#9EC4DC"
+          }
+        ]
+      }
+    ],
+    "components": []
+  },
+  "nodeCount": 3,
+  "componentDocumentLinks": [],
+  "fetchProgress": "Fetched 3/35. MISSING 32 sections: [3,4,5,6,7,8,9,10,11,12... +22 more]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
+}

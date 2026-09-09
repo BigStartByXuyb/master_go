@@ -1,0 +1,37 @@
+{
+  "schemaVersion": "mastergo-visibility-audit/1",
+  "input": "D:\\agent_xy\\tu\\master_go\\Generated\\F2\\dsl-run\\input-9.json",
+  "nodeCount": 2,
+  "nodes": [
+    {
+      "ref": "357:211220/1218:637265",
+      "parentRef": null,
+      "type": "LAYER",
+      "name": "矩形 108",
+      "text": null,
+      "explicitVisible": null,
+      "visibilityProperty": null,
+      "visibilityRaw": null,
+      "defaultVisible": true,
+      "effectiveVisible": true,
+      "visibilitySourceRef": null,
+      "sourcePath": "$root.section"
+    },
+    {
+      "ref": "357:211220/1218:637265",
+      "parentRef": null,
+      "type": "LAYER",
+      "name": "矩形 108",
+      "text": null,
+      "explicitVisible": null,
+      "visibilityProperty": null,
+      "visibilityRaw": null,
+      "defaultVisible": true,
+      "effectiveVisible": true,
+      "visibilitySourceRef": null,
+      "sourcePath": "$root.dsl.nodes[0]"
+    }
+  ],
+  "texts": [],
+  "paths": []
+}

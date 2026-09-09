@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "mastergo-dsl-timing/1",
+  "runId": "20260909114035-369219f1",
+  "totalWallClockMs": 240,
+  "overviewMs": 0,
+  "sectionWallClockMs": 120179,
+  "sectionWorkerDurationMs": 1711,
+  "mergeMs": 0,
+  "validationMs": 0,
+  "criticalPathMs": 120179,
+  "completedAt": "2026-09-09T03:40:36.0992793Z"
+}

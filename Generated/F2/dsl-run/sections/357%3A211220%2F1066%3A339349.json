@@ -1,0 +1,587 @@
+{
+  "sectionIndex": 25,
+  "section": {
+    "id": "357:211220/1066:339349",
+    "name": "界面内操作组",
+    "type": "INSTANCE"
+  },
+  "rootContainer": {
+    "width": "1280px",
+    "minHeight": "1024px",
+    "background": "transparent",
+    "overflow": "hidden",
+    "position": "relative"
+  },
+  "structureSiblingCount": 1,
+  "dsl": {
+    "styles": {
+      "effect_17:25760": {
+        "value": []
+      },
+      "effect_93:196684": {
+        "value": [
+          "box-shadow: inset 1px 1px 0px 0px rgba(255, 255, 255, 0.8);",
+          "box-shadow: 2px 2px 0px 0px #608CB5;"
+        ]
+      },
+      "font_1104:269380": {
+        "value": {
+          "family": "DIN Alternate",
+          "size": 22,
+          "style": "{\"fontStyle\":\"Bold\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "none",
+          "lineHeight": "22",
+          "letterSpacing": "2%",
+          "weight": "700"
+        }
+      },
+      "font_1104:269388": {
+        "value": {
+          "family": "DIN Alternate",
+          "size": 22,
+          "style": "{\"fontStyle\":\"Bold\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "none",
+          "lineHeight": "20",
+          "letterSpacing": "2%",
+          "weight": "700"
+        }
+      },
+      "font_1104:273134": {
+        "value": {
+          "family": "DIN Alternate",
+          "size": 20,
+          "style": "{\"fontStyle\":\"Bold\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "none",
+          "lineHeight": "20",
+          "letterSpacing": "2%",
+          "weight": "700"
+        }
+      },
+      "font_194:114919": {
+        "value": {
+          "family": "DIN Alternate",
+          "size": 28,
+          "style": "{\"fontStyle\":\"Bold\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "none",
+          "lineHeight": "22",
+          "letterSpacing": "2%",
+          "weight": "700"
+        }
+      },
+      "font_231:111176": {
+        "value": {
+          "family": "Arial",
+          "size": 16,
+          "style": "{\"fontStyle\":\"Regular\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "none",
+          "lineHeight": "16",
+          "letterSpacing": "auto",
+          "weight": "400"
+        }
+      },
+      "paint_1104:273062": {
+        "value": [
+          "#000000"
+        ]
+      },
+      "paint_13:5070": {
+        "value": [
+          "#000000"
+        ]
+      },
+      "paint_921:452131": {
+        "value": [
+          "linear-gradient(180deg, #D0EAFF 0%, #D0EAFF 42%, #B5D5F0 98%)"
+        ]
+      }
+    },
+    "nodes": [
+      {
+        "type": "INSTANCE",
+        "id": "357:211220/1066:339349",
+        "name": "界面内操作组",
+        "layoutStyle": {
+          "width": 342,
+          "height": 60,
+          "relativeX": 0,
+          "relativeY": 0
+        },
+        "componentInfo": {
+          "properties": {
+            "属性 1": "加减快捷键-无标题"
+          }
+        },
+        "children": [
+          {
+            "type": "GROUP",
+            "id": "357:211220/1066:339349/1104:277511",
+            "name": "按钮",
+            "layoutStyle": {
+              "width": 60.000003814697266,
+              "height": 60,
+              "relativeX": 282,
+              "relativeY": 0
+            },
+            "children": [
+              {
+                "type": "GROUP",
+                "id": "357:211220/1066:339349/1104:277511/1104:277516",
+                "name": "组 1528",
+                "layoutStyle": {
+                  "width": 60.000003814697266,
+                  "height": 60,
+                  "relativeX": 0,
+                  "relativeY": 0
+                },
+                "children": [
+                  {
+                    "type": "INSTANCE",
+                    "id": "357:211220/1066:339349/1104:277511/1104:277516/1104:277517",
+                    "name": "矩形 1399",
+                    "layoutStyle": {
+                      "width": 60.000003814697266,
+                      "height": 60,
+                      "relativeX": 0,
+                      "relativeY": 0
+                    },
+                    "effect": "effect_17:25760",
+                    "componentInfo": {},
+                    "children": [
+                      {
+                        "type": "LAYER",
+                        "id": "357:211220/1066:339349/1104:277511/1104:277516/1104:277517/93:184986",
+                        "name": "背景区域",
+                        "layoutStyle": {
+                          "width": 152,
+                          "height": 84,
+                          "relativeX": 0,
+                          "relativeY": 0
+                        },
+                        "borderRadius": "8px",
+                        "fill": "paint_921:452131",
+                        "_color": "linear-gradient(180deg, #D0EAFF 0%, #D0EAFF 42%, #B5D5F0 98%)",
+                        "effect": "effect_93:196684"
+                      }
+                    ],
+                    "componentId": "93:185032"
+                  }
+                ]
+              },
+              {
+                "type": "TEXT",
+                "id": "357:211220/1066:339349/1104:277511/1104:277512",
+                "name": "+5",
+                "layoutStyle": {
+                  "width": 25,
+                  "height": 22,
+                  "relativeX": 17.5,
+                  "relativeY": 19
+                },
+                "fill": "paint_1104:273062",
+                "_color": "#000000",
+                "text": [
+                  {
+                    "text": "+5",
+                    "font": "font_1104:269380"
+                  }
+                ],
+                "textColor": [
+                  {
+                    "start": 0,
+                    "end": 2,
+                    "color": "paint_1104:273062"
+                  }
+                ],
+                "textAlign": "center",
+                "textMode": "single-line",
+                "_placeholder": true
+              }
+            ]
+          },
+          {
+            "type": "GROUP",
+            "id": "357:211220/1066:339349/1104:277495",
+            "name": "按钮",
+            "layoutStyle": {
+              "width": 60.000003814697266,
+              "height": 60,
+              "relativeX": 66,
+              "relativeY": 0
+            },
+            "children": [
+              {
+                "type": "GROUP",
+                "id": "357:211220/1066:339349/1104:277495/1104:277496",
+                "name": "组 1528",
+                "layoutStyle": {
+                  "width": 60.000003814697266,
+                  "height": 60,
+                  "relativeX": 0,
+                  "relativeY": 0
+                },
+                "children": [
+                  {
+                    "type": "INSTANCE",
+                    "id": "357:211220/1066:339349/1104:277495/1104:277496/1104:277497",
+                    "name": "矩形 1399",
+                    "layoutStyle": {
+                      "width": 60.000003814697266,
+                      "height": 60,
+                      "relativeX": 0,
+                      "relativeY": 0
+                    },
+                    "effect": "effect_17:25760",
+                    "componentInfo": {},
+                    "children": [
+                      {
+                        "type": "LAYER",
+                        "id": "357:211220/1066:339349/1104:277495/1104:277496/1104:277497/93:184986",
+                        "name": "背景区域",
+                        "layoutStyle": {
+                          "width": 152,
+                          "height": 84,
+                          "relativeX": 0,
+                          "relativeY": 0
+                        },
+                        "borderRadius": "8px",
+                        "fill": "paint_921:452131",
+                        "_color": "linear-gradient(180deg, #D0EAFF 0%, #D0EAFF 42%, #B5D5F0 98%)",
+                        "effect": "effect_93:196684"
+                      }
+                    ],
+                    "componentId": "93:185032"
+                  }
+                ]
+              },
+              {
+                "type": "TEXT",
+                "id": "357:211220/1066:339349/1104:277495/1104:277498",
+                "name": "-5",
+                "layoutStyle": {
+                  "width": 20,
+                  "height": 22,
+                  "relativeX": 20,
+                  "relativeY": 19
+                },
+                "fill": "paint_1104:273062",
+                "_color": "#000000",
+                "text": [
+                  {
+                    "text": "-5",
+                    "font": "font_1104:269380"
+                  }
+                ],
+                "textColor": [
+                  {
+                    "start": 0,
+                    "end": 2,
+                    "color": "paint_1104:273062"
+                  }
+                ],
+                "textAlign": "center",
+                "textMode": "single-line",
+                "_placeholder": true
+              }
+            ]
+          },
+          {
+            "type": "GROUP",
+            "id": "357:211220/1066:339349/1104:277518",
+            "name": "按钮",
+            "layoutStyle": {
+              "width": 60.000003814697266,
+              "height": 60,
+              "relativeX": 210,
+              "relativeY": 0
+            },
+            "children": [
+              {
+                "type": "GROUP",
+                "id": "357:211220/1066:339349/1104:277518/1104:277523",
+                "name": "组 1528",
+                "layoutStyle": {
+                  "width": 60.000003814697266,
+                  "height": 60,
+                  "relativeX": 0,
+                  "relativeY": 0
+                },
+                "children": [
+                  {
+                    "type": "INSTANCE",
+                    "id": "357:211220/1066:339349/1104:277518/1104:277523/1104:277524",
+                    "name": "矩形 1399",
+                    "layoutStyle": {
+                      "width": 60.000003814697266,
+                      "height": 60,
+                      "relativeX": 0,
+                      "relativeY": 0
+                    },
+                    "effect": "effect_17:25760",
+                    "componentInfo": {},
+                    "children": [
+                      {
+                        "type": "LAYER",
+                        "id": "357:211220/1066:339349/1104:277518/1104:277523/1104:277524/93:184986",
+                        "name": "背景区域",
+                        "layoutStyle": {
+                          "width": 152,
+                          "height": 84,
+                          "relativeX": 0,
+                          "relativeY": 0
+                        },
+                        "borderRadius": "8px",
+                        "fill": "paint_921:452131",
+                        "_color": "linear-gradient(180deg, #D0EAFF 0%, #D0EAFF 42%, #B5D5F0 98%)",
+                        "effect": "effect_93:196684"
+                      }
+                    ],
+                    "componentId": "93:185032"
+                  }
+                ]
+              },
+              {
+                "type": "TEXT",
+                "id": "357:211220/1066:339349/1104:277518/1104:277519",
+                "name": "+1",
+                "layoutStyle": {
+                  "width": 23,
+                  "height": 20,
+                  "relativeX": 18.5,
+                  "relativeY": 20
+                },
+                "fill": "paint_1104:273062",
+                "_color": "#000000",
+                "text": [
+                  {
+                    "text": "+1",
+                    "font": "font_1104:273134"
+                  }
+                ],
+                "textColor": [
+                  {
+                    "start": 0,
+                    "end": 2,
+                    "color": "paint_1104:273062"
+                  }
+                ],
+                "textAlign": "center",
+                "textMode": "single-line",
+                "_placeholder": true
+              }
+            ]
+          },
+          {
+            "type": "GROUP",
+            "id": "357:211220/1066:339349/1104:277488",
+            "name": "按钮",
+            "layoutStyle": {
+              "width": 60.000003814697266,
+              "height": 60,
+              "relativeX": 138,
+              "relativeY": 0
+            },
+            "children": [
+              {
+                "type": "GROUP",
+                "id": "357:211220/1066:339349/1104:277488/1104:277493",
+                "name": "组 1528",
+                "layoutStyle": {
+                  "width": 60.000003814697266,
+                  "height": 60,
+                  "relativeX": 0,
+                  "relativeY": 0
+                },
+                "children": [
+                  {
+                    "type": "INSTANCE",
+                    "id": "357:211220/1066:339349/1104:277488/1104:277493/1104:277494",
+                    "name": "矩形 1399",
+                    "layoutStyle": {
+                      "width": 60.000003814697266,
+                      "height": 60,
+                      "relativeX": 0,
+                      "relativeY": 0
+                    },
+                    "effect": "effect_17:25760",
+                    "componentInfo": {},
+                    "children": [
+                      {
+                        "type": "LAYER",
+                        "id": "357:211220/1066:339349/1104:277488/1104:277493/1104:277494/93:184986",
+                        "name": "背景区域",
+                        "layoutStyle": {
+                          "width": 152,
+                          "height": 84,
+                          "relativeX": 0,
+                          "relativeY": 0
+                        },
+                        "borderRadius": "8px",
+                        "fill": "paint_921:452131",
+                        "_color": "linear-gradient(180deg, #D0EAFF 0%, #D0EAFF 42%, #B5D5F0 98%)",
+                        "effect": "effect_93:196684"
+                      }
+                    ],
+                    "componentId": "93:185032"
+                  }
+                ]
+              },
+              {
+                "type": "TEXT",
+                "id": "357:211220/1066:339349/1104:277488/1104:277489",
+                "name": "-1",
+                "layoutStyle": {
+                  "width": 20,
+                  "height": 20,
+                  "relativeX": 20,
+                  "relativeY": 20
+                },
+                "fill": "paint_1104:273062",
+                "_color": "#000000",
+                "text": [
+                  {
+                    "text": "-1",
+                    "font": "font_1104:269388"
+                  }
+                ],
+                "textColor": [
+                  {
+                    "start": 0,
+                    "end": 2,
+                    "color": "paint_1104:273062"
+                  }
+                ],
+                "textAlign": "center",
+                "textMode": "single-line",
+                "_placeholder": true
+              }
+            ]
+          },
+          {
+            "type": "GROUP",
+            "id": "357:211220/1066:339349/1104:277502",
+            "name": "组 2525",
+            "layoutStyle": {
+              "width": 50,
+              "height": 48,
+              "relativeX": 0,
+              "relativeY": 6
+            },
+            "children": [
+              {
+                "type": "TEXT",
+                "id": "357:211220/1066:339349/1104:277502/1104:277503",
+                "name": "9.0%",
+                "layoutStyle": {
+                  "width": 28,
+                  "height": 22,
+                  "relativeX": 15,
+                  "relativeY": 26
+                },
+                "fill": "paint_13:5070",
+                "_color": "#000000",
+                "text": [
+                  {
+                    "text": "64",
+                    "font": "font_194:114919"
+                  }
+                ],
+                "textColor": [
+                  {
+                    "start": 0,
+                    "end": 2,
+                    "color": "paint_13:5070"
+                  }
+                ],
+                "textAlign": "right",
+                "textMode": "single-line"
+              },
+              {
+                "type": "TEXT",
+                "id": "357:211220/1066:339349/1104:277502/1104:277507",
+                "name": "Dir",
+                "layoutStyle": {
+                  "width": 43,
+                  "height": 16,
+                  "relativeX": 29,
+                  "relativeY": 0
+                },
+                "fill": "paint_13:5070",
+                "_color": "#000000",
+                "text": [
+                  {
+                    "text": "Y-size",
+                    "font": "font_231:111176"
+                  }
+                ],
+                "textColor": [
+                  {
+                    "start": 0,
+                    "end": 6,
+                    "color": "paint_13:5070"
+                  }
+                ],
+                "textAlign": "right",
+                "textMode": "single-line"
+              }
+            ]
+          }
+        ],
+        "componentId": "1104:277487",
+        "_variantProps": {
+          "属性 1": "加减快捷键-无标题"
+        }
+      }
+    ],
+    "components": [],
+    "rowTexts": [
+      {
+        "text": "+5",
+        "_placeholder": true,
+        "parentType": "GROUP",
+        "parentName": "界面内操作组"
+      },
+      {
+        "text": "-5",
+        "_placeholder": true,
+        "parentType": "GROUP",
+        "parentName": "界面内操作组"
+      },
+      {
+        "text": "+1",
+        "_placeholder": true,
+        "parentType": "GROUP",
+        "parentName": "界面内操作组"
+      },
+      {
+        "text": "-1",
+        "_placeholder": true,
+        "parentType": "GROUP",
+        "parentName": "界面内操作组"
+      },
+      {
+        "text": "64",
+        "parentType": "GROUP",
+        "parentName": "界面内操作组"
+      },
+      {
+        "text": "Y-size",
+        "parentType": "GROUP",
+        "parentName": "界面内操作组"
+      }
+    ],
+    "placeholderTexts": [
+      "+5",
+      "-5",
+      "+1",
+      "-1"
+    ]
+  },
+  "nodeCount": 24,
+  "componentDocumentLinks": [],
+  "fetchProgress": "Fetched 26/35. MISSING 9 sections: [26,27,28,29,30,31,32,33,34]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
+}

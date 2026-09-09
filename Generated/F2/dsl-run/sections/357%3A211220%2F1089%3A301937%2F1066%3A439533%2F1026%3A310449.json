@@ -1,0 +1,196 @@
+{
+  "sectionIndex": 4,
+  "section": {
+    "id": "357:211220/1089:301937/1066:439533/1026:310449",
+    "name": "顶部栏",
+    "type": "INSTANCE"
+  },
+  "rootContainer": {
+    "width": "1280px",
+    "minHeight": "1024px",
+    "background": "transparent",
+    "overflow": "hidden",
+    "position": "relative"
+  },
+  "structureSiblingCount": 1,
+  "dsl": {
+    "styles": {
+      "effect_93:175484": {
+        "value": [
+          "box-shadow: inset 2px 2px 0px 0px rgba(255, 255, 255, 0.5);",
+          "box-shadow: 4px 4px 10px 0px rgba(192, 199, 209, 0.6);",
+          "box-shadow: 2px 2px 0px 0px rgba(108, 108, 108, 0.6);"
+        ]
+      },
+      "font_1066:203327": {
+        "value": {
+          "family": "Alibaba PuHuiTi 2.0",
+          "size": 16,
+          "style": "{\"fontStyle\":\"55 Regular\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "none",
+          "lineHeight": "16",
+          "letterSpacing": "auto",
+          "weight": "400"
+        }
+      },
+      "paint_10:3": {
+        "value": [
+          "#FFFFFF"
+        ]
+      },
+      "paint_13:5070": {
+        "value": [
+          "#000000"
+        ]
+      },
+      "paint_93:175401": {
+        "value": [
+          "linear-gradient(180deg, #F0F8FC 0%, #EBEFF6 50%, #DBE1E5 100%)"
+        ]
+      }
+    },
+    "nodes": [
+      {
+        "type": "INSTANCE",
+        "id": "357:211220/1089:301937/1066:439533/1026:310449",
+        "name": "顶部栏",
+        "layoutStyle": {
+          "width": 100,
+          "height": 100,
+          "relativeX": 0,
+          "relativeY": 0
+        },
+        "componentInfo": {
+          "properties": {
+            "属性 1": "顶部button-报警"
+          }
+        },
+        "children": [
+          {
+            "type": "INSTANCE",
+            "id": "357:211220/1089:301937/1066:439533/1026:310449/1066:291897",
+            "name": "报警",
+            "layoutStyle": {
+              "width": 100,
+              "height": 100,
+              "relativeX": 0,
+              "relativeY": 0
+            },
+            "componentInfo": {},
+            "children": [
+              {
+                "type": "INSTANCE",
+                "id": "357:211220/1089:301937/1066:439533/1026:310449/1066:291897/1066:267521",
+                "name": "矩形 167",
+                "layoutStyle": {
+                  "width": 100,
+                  "height": 100,
+                  "relativeX": 0,
+                  "relativeY": 0
+                },
+                "componentInfo": {},
+                "children": [
+                  {
+                    "type": "LAYER",
+                    "id": "357:211220/1089:301937/1066:439533/1026:310449/1066:291897/1066:267521/1026:310362",
+                    "name": "矩形 112",
+                    "layoutStyle": {
+                      "width": 180,
+                      "height": 180,
+                      "relativeX": 0,
+                      "relativeY": 0
+                    },
+                    "borderRadius": "8px",
+                    "fill": "paint_93:175401",
+                    "_color": "linear-gradient(180deg, #F0F8FC 0%, #EBEFF6 50%, #DBE1E5 100%)",
+                    "effect": "effect_93:175484"
+                  }
+                ],
+                "componentId": "1026:310361"
+              },
+              {
+                "type": "INSTANCE",
+                "id": "357:211220/1089:301937/1066:439533/1026:310449/1066:291897/1066:267520",
+                "name": "报警/解除",
+                "layoutStyle": {
+                  "width": 73,
+                  "height": 51,
+                  "relativeX": 14,
+                  "relativeY": 12
+                },
+                "componentInfo": {},
+                "children": [
+                  {
+                    "type": "PATH",
+                    "id": "357:211220/1089:301937/1066:439533/1026:310449/1066:291897/1066:267520/1026:310366",
+                    "name": "联集 233",
+                    "layoutStyle": {
+                      "width": 72.7265625,
+                      "height": 50.00017547607422,
+                      "relativeX": 0,
+                      "relativeY": 0
+                    },
+                    "svgKey": "S4:报警/解除|357:211220/1089:301937/1066:439533/1026:310449/1066:291897/1066:267520/1026:310366",
+                    "svgShortKey": "S4#0",
+                    "svgName": "报警/解除"
+                  }
+                ],
+                "componentId": "1026:310365"
+              },
+              {
+                "type": "TEXT",
+                "id": "357:211220/1089:301937/1066:439533/1026:310449/1066:291897/1066:267522",
+                "name": "报警/解除",
+                "layoutStyle": {
+                  "width": 71,
+                  "height": 16,
+                  "relativeX": 14.5,
+                  "relativeY": 72
+                },
+                "text": [
+                  {
+                    "text": "报警/解除",
+                    "font": "font_1066:203327"
+                  }
+                ],
+                "textColor": [
+                  {
+                    "start": 0,
+                    "end": 5,
+                    "color": "paint_13:5070"
+                  }
+                ],
+                "textAlign": "center",
+                "textMode": "single-line",
+                "_placeholder": true
+              }
+            ],
+            "componentId": "1066:267519"
+          }
+        ],
+        "componentId": "1066:291896",
+        "_variantProps": {
+          "属性 1": "顶部button-报警"
+        }
+      }
+    ],
+    "components": [],
+    "rowTexts": [
+      {
+        "text": "报警/解除",
+        "_placeholder": true,
+        "parentType": "INSTANCE",
+        "parentName": "报警"
+      }
+    ],
+    "placeholderTexts": [
+      "报警/解除"
+    ]
+  },
+  "nodeCount": 7,
+  "svgNodeCount": 1,
+  "hasStrippedSvgs": true,
+  "componentDocumentLinks": [],
+  "fetchProgress": "Fetched 5/35. MISSING 30 sections: [5,6,7,8,9,10,11,12,13,14... +20 more]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
+}

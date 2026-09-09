@@ -1,0 +1,401 @@
+{
+  "sectionIndex": 3,
+  "section": {
+    "id": "357:211220/1089:301937/1066:439533/1026:310328",
+    "name": "组 2518",
+    "type": "GROUP"
+  },
+  "rootContainer": {
+    "width": "1280px",
+    "minHeight": "1024px",
+    "background": "transparent",
+    "overflow": "hidden",
+    "position": "relative"
+  },
+  "structureSiblingCount": 1,
+  "dsl": {
+    "styles": {
+      "effect_17:25760": {
+        "value": []
+      },
+      "font_1026:205772": {
+        "value": {
+          "family": "Alibaba PuHuiTi 2.0",
+          "size": 16,
+          "style": "{\"fontStyle\":\"55 Regular\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "none",
+          "lineHeight": "16",
+          "letterSpacing": "auto",
+          "weight": "400"
+        }
+      },
+      "font_1026:231516": {
+        "value": {
+          "family": "DIN Alternate",
+          "size": 16,
+          "style": "{\"fontStyle\":\"Bold\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "none",
+          "lineHeight": "16",
+          "letterSpacing": "2%",
+          "weight": "700"
+        }
+      },
+      "paint_10:33": {
+        "value": [
+          "#000000"
+        ]
+      },
+      "paint_124:635986": {
+        "value": [
+          "#C4DDF7"
+        ]
+      },
+      "paint_299:203635": {
+        "value": [
+          "#91B3D0"
+        ]
+      },
+      "paint_406:132670": {
+        "value": [
+          "#90B2CF"
+        ]
+      },
+      "paint_921:524007": {
+        "value": [
+          "#333333"
+        ]
+      },
+      "paint_93:182653": {
+        "value": [
+          "#ECF5FF"
+        ]
+      },
+      "paint_93:189060": {
+        "value": [
+          "#88B2D3"
+        ]
+      }
+    },
+    "nodes": [
+      {
+        "type": "GROUP",
+        "id": "357:211220/1089:301937/1066:439533/1026:310328",
+        "name": "组 2518",
+        "layoutStyle": {
+          "width": 694,
+          "height": 102,
+          "relativeX": 0,
+          "relativeY": 0
+        },
+        "children": [
+          {
+            "type": "GROUP",
+            "id": "357:211220/1089:301937/1066:439533/1026:310328/1026:310329",
+            "name": "顶部状态栏",
+            "layoutStyle": {
+              "width": 694,
+              "height": 102,
+              "relativeX": 0,
+              "relativeY": 0
+            },
+            "children": [
+              {
+                "type": "LAYER",
+                "id": "357:211220/1089:301937/1066:439533/1026:310328/1026:310329/1026:310346",
+                "name": "矩形 1210",
+                "layoutStyle": {
+                  "width": 694,
+                  "height": 102,
+                  "relativeX": 0,
+                  "relativeY": 0
+                },
+                "borderRadius": "8px",
+                "fill": "paint_124:635986",
+                "_color": "#C4DDF7",
+                "effect": "effect_17:25760"
+              },
+              {
+                "type": "TEXT",
+                "id": "357:211220/1089:301937/1066:439533/1026:310328/1026:310329/1026:310342",
+                "name": "设备编号",
+                "layoutStyle": {
+                  "width": 63,
+                  "height": 16,
+                  "relativeX": 214,
+                  "relativeY": 9
+                },
+                "fill": "paint_921:524007",
+                "_color": "#333333",
+                "text": [
+                  {
+                    "text": "设备编号",
+                    "font": "font_1026:205772"
+                  }
+                ],
+                "textColor": [
+                  {
+                    "start": 0,
+                    "end": 4,
+                    "color": "paint_921:524007"
+                  }
+                ],
+                "textAlign": "left",
+                "textMode": "single-line",
+                "_placeholder": true
+              },
+              {
+                "type": "PATH",
+                "id": "357:211220/1089:301937/1066:439533/1026:310328/1026:310329/1026:310347",
+                "name": "路径",
+                "layoutStyle": {
+                  "width": 18,
+                  "height": 10,
+                  "relativeX": 656,
+                  "relativeY": 77
+                },
+                "svgKey": "S3:顶部状态栏|357:211220/1089:301937/1066:439533/1026:310328/1026:310329/1026:310347",
+                "svgShortKey": "S3#0",
+                "svgName": "顶部状态栏"
+              },
+              {
+                "type": "TEXT",
+                "id": "357:211220/1089:301937/1066:439533/1026:310328/1026:310329/1026:310348",
+                "name": "2026/03/01 12:00:23",
+                "layoutStyle": {
+                  "width": 136,
+                  "height": 16,
+                  "relativeX": 20,
+                  "relativeY": 9
+                },
+                "fill": "paint_10:33",
+                "_color": "#000000",
+                "text": [
+                  {
+                    "text": "2026/03/01 12:00:23",
+                    "font": "font_1026:231516"
+                  }
+                ],
+                "textColor": [
+                  {
+                    "start": 0,
+                    "end": 19,
+                    "color": "paint_10:33"
+                  }
+                ],
+                "textAlign": "left",
+                "textMode": "single-line",
+                "_placeholder": true
+              },
+              {
+                "type": "TEXT",
+                "id": "357:211220/1089:301937/1066:439533/1026:310328/1026:310329/1026:310330",
+                "name": "Sharon / 3743825436457",
+                "layoutStyle": {
+                  "width": 168,
+                  "height": 16,
+                  "relativeX": 289,
+                  "relativeY": 9
+                },
+                "fill": "paint_10:33",
+                "_color": "#000000",
+                "text": [
+                  {
+                    "text": "Sharon / 3743825436457",
+                    "font": "font_1026:231516"
+                  }
+                ],
+                "textColor": [
+                  {
+                    "start": 0,
+                    "end": 22,
+                    "color": "paint_10:33"
+                  }
+                ],
+                "textAlign": "left",
+                "textMode": "single-line",
+                "_placeholder": true
+              },
+              {
+                "type": "TEXT",
+                "id": "357:211220/1089:301937/1066:439533/1026:310328/1026:310329/1026:310334",
+                "name": "暂无报警信息",
+                "layoutStyle": {
+                  "width": 590,
+                  "height": 16,
+                  "relativeX": 20,
+                  "relativeY": 44
+                },
+                "fill": "paint_299:203635",
+                "_color": "#91B3D0",
+                "text": [
+                  {
+                    "text": "暂无报警信息",
+                    "font": "font_1026:205772"
+                  }
+                ],
+                "textColor": [
+                  {
+                    "start": 0,
+                    "end": 6,
+                    "color": "paint_299:203635"
+                  }
+                ],
+                "textAlign": "left",
+                "textMode": "auto-height",
+                "_placeholder": true
+              },
+              {
+                "type": "TEXT",
+                "id": "357:211220/1089:301937/1066:439533/1026:310328/1026:310329/1026:310338",
+                "name": "日志/引导性操作信息，无则不展示",
+                "layoutStyle": {
+                  "width": 590,
+                  "height": 16,
+                  "relativeX": 20,
+                  "relativeY": 74
+                },
+                "fill": "paint_10:33",
+                "_color": "#000000",
+                "text": [
+                  {
+                    "text": "日志/引导性操作信息，无则不展示",
+                    "font": "font_1026:205772"
+                  }
+                ],
+                "textColor": [
+                  {
+                    "start": 0,
+                    "end": 16,
+                    "color": "paint_10:33"
+                  }
+                ],
+                "textAlign": "left",
+                "textMode": "auto-height",
+                "_placeholder": true
+              },
+              {
+                "type": "GROUP",
+                "id": "357:211220/1089:301937/1066:439533/1026:310328/1026:310329/1026:310355",
+                "name": "分割线",
+                "layoutStyle": {
+                  "width": 2,
+                  "height": 654,
+                  "relativeX": 346,
+                  "relativeY": -295,
+                  "rotate": 90
+                },
+                "children": [
+                  {
+                    "type": "LAYER",
+                    "id": "357:211220/1089:301937/1066:439533/1026:310328/1026:310329/1026:310355/1026:310356",
+                    "name": "矩形 110",
+                    "layoutStyle": {
+                      "height": 654,
+                      "relativeX": 1,
+                      "relativeY": 0
+                    },
+                    "fill": "paint_93:189060",
+                    "_color": "#88B2D3"
+                  },
+                  {
+                    "type": "LAYER",
+                    "id": "357:211220/1089:301937/1066:439533/1026:310328/1026:310329/1026:310355/1026:310357",
+                    "name": "矩形 168",
+                    "layoutStyle": {
+                      "height": 654,
+                      "relativeX": 0,
+                      "relativeY": 0
+                    },
+                    "fill": "paint_93:182653",
+                    "_color": "#ECF5FF"
+                  }
+                ]
+              },
+              {
+                "type": "GROUP",
+                "id": "357:211220/1089:301937/1066:439533/1026:310328/1026:310329/1026:310352",
+                "name": "分割线",
+                "layoutStyle": {
+                  "width": 2,
+                  "height": 20,
+                  "relativeX": 196,
+                  "relativeY": 6,
+                  "rotate": 180,
+                  "rotateX": 180
+                },
+                "children": [
+                  {
+                    "type": "LAYER",
+                    "id": "357:211220/1089:301937/1066:439533/1026:310328/1026:310329/1026:310352/1026:310353",
+                    "name": "矩形 110",
+                    "layoutStyle": {
+                      "height": 20,
+                      "relativeX": 1,
+                      "relativeY": 0
+                    },
+                    "fill": "paint_93:189060",
+                    "_color": "#88B2D3"
+                  },
+                  {
+                    "type": "LAYER",
+                    "id": "357:211220/1089:301937/1066:439533/1026:310328/1026:310329/1026:310352/1026:310354",
+                    "name": "矩形 168",
+                    "layoutStyle": {
+                      "height": 20,
+                      "relativeX": 0,
+                      "relativeY": 0
+                    },
+                    "fill": "paint_93:182653",
+                    "_color": "#ECF5FF"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "components": [],
+    "rowTexts": [
+      {
+        "text": "设备编号",
+        "_placeholder": true,
+        "parentType": "GROUP"
+      },
+      {
+        "text": "2026/03/01 12:00:23",
+        "_placeholder": true,
+        "parentType": "GROUP"
+      },
+      {
+        "text": "Sharon / 3743825436457",
+        "_placeholder": true,
+        "parentType": "GROUP"
+      },
+      {
+        "text": "暂无报警信息",
+        "_placeholder": true,
+        "parentType": "GROUP"
+      },
+      {
+        "text": "日志/引导性操作信息，无则不展示",
+        "_placeholder": true,
+        "parentType": "GROUP"
+      }
+    ],
+    "placeholderTexts": [
+      "设备编号",
+      "2026/03/01 12:00:23",
+      "Sharon / 3743825436457",
+      "暂无报警信息",
+      "日志/引导性操作信息，无则不展示"
+    ]
+  },
+  "nodeCount": 15,
+  "svgNodeCount": 1,
+  "hasStrippedSvgs": true,
+  "componentDocumentLinks": [],
+  "fetchProgress": "Fetched 4/35. MISSING 31 sections: [4,5,6,7,8,9,10,11,12,13... +21 more]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
+}

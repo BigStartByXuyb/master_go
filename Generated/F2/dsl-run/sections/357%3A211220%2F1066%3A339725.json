@@ -1,0 +1,741 @@
+{
+  "sectionIndex": 26,
+  "section": {
+    "id": "357:211220/1066:339725",
+    "name": "界面内操作组",
+    "type": "INSTANCE"
+  },
+  "rootContainer": {
+    "width": "1280px",
+    "minHeight": "1024px",
+    "background": "transparent",
+    "overflow": "hidden",
+    "position": "relative"
+  },
+  "structureSiblingCount": 1,
+  "dsl": {
+    "styles": {
+      "effect_17:25760": {
+        "value": []
+      },
+      "effect_93:196684": {
+        "value": [
+          "box-shadow: inset 1px 1px 0px 0px rgba(255, 255, 255, 0.8);",
+          "box-shadow: 2px 2px 0px 0px #608CB5;"
+        ]
+      },
+      "font_1104:273134": {
+        "value": {
+          "family": "DIN Alternate",
+          "size": 20,
+          "style": "{\"fontStyle\":\"Bold\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "none",
+          "lineHeight": "20",
+          "letterSpacing": "2%",
+          "weight": "700"
+        }
+      },
+      "paint_1104:273062": {
+        "value": [
+          "#000000"
+        ]
+      },
+      "paint_13:5070": {
+        "value": [
+          "#000000"
+        ]
+      },
+      "paint_921:452131": {
+        "value": [
+          "linear-gradient(180deg, #D0EAFF 0%, #D0EAFF 42%, #B5D5F0 98%)"
+        ]
+      }
+    },
+    "nodes": [
+      {
+        "type": "INSTANCE",
+        "id": "357:211220/1066:339725",
+        "name": "界面内操作组",
+        "layoutStyle": {
+          "width": 384,
+          "height": 132,
+          "relativeX": 0,
+          "relativeY": 0
+        },
+        "componentInfo": {
+          "properties": {
+            "属性 1": "轴操作"
+          }
+        },
+        "children": [
+          {
+            "type": "INSTANCE",
+            "id": "357:211220/1066:339725/1104:277653",
+            "name": "轴操作",
+            "layoutStyle": {
+              "width": 384,
+              "height": 132,
+              "relativeX": 0,
+              "relativeY": 0
+            },
+            "componentInfo": {},
+            "children": [
+              {
+                "type": "GROUP",
+                "id": "357:211220/1066:339725/1104:277653/1066:340235",
+                "name": "按钮-指向上",
+                "layoutStyle": {
+                  "width": 100,
+                  "height": 60,
+                  "relativeX": 172,
+                  "relativeY": 0
+                },
+                "children": [
+                  {
+                    "type": "INSTANCE",
+                    "id": "357:211220/1066:339725/1104:277653/1066:340235/1066:340236",
+                    "name": "矩形 1399",
+                    "layoutStyle": {
+                      "width": 100,
+                      "height": 60,
+                      "relativeX": 0,
+                      "relativeY": 0
+                    },
+                    "effect": "effect_17:25760",
+                    "componentInfo": {},
+                    "children": [
+                      {
+                        "type": "LAYER",
+                        "id": "357:211220/1066:339725/1104:277653/1066:340235/1066:340236/93:184986",
+                        "name": "背景区域",
+                        "layoutStyle": {
+                          "width": 100,
+                          "height": 60,
+                          "relativeX": 0,
+                          "relativeY": 0
+                        },
+                        "borderRadius": "4px",
+                        "fill": "paint_921:452131",
+                        "_color": "linear-gradient(180deg, #D0EAFF 0%, #D0EAFF 42%, #B5D5F0 98%)",
+                        "effect": "effect_93:196684"
+                      }
+                    ],
+                    "componentId": "93:185032"
+                  },
+                  {
+                    "type": "GROUP",
+                    "id": "357:211220/1066:339725/1104:277653/1066:340235/1066:340237",
+                    "name": "组 1521",
+                    "layoutStyle": {
+                      "width": 26,
+                      "height": 28,
+                      "relativeX": 37,
+                      "relativeY": 10,
+                      "flipV": true
+                    },
+                    "children": [
+                      {
+                        "type": "GROUP",
+                        "id": "357:211220/1066:339725/1104:277653/1066:340235/1066:340237/1066:340238",
+                        "name": "组 1520",
+                        "layoutStyle": {
+                          "width": 10,
+                          "height": 11,
+                          "relativeX": 8,
+                          "relativeY": 0,
+                          "flipV": true
+                        },
+                        "children": [
+                          {
+                            "type": "GROUP",
+                            "id": "357:211220/1066:339725/1104:277653/1066:340235/1066:340237/1066:340238/1066:340239",
+                            "name": "组 470",
+                            "layoutStyle": {
+                              "width": 11,
+                              "height": 10,
+                              "relativeX": -0.5,
+                              "relativeY": 0.5,
+                              "rotate": 90
+                            },
+                            "children": [
+                              {
+                                "type": "LAYER",
+                                "id": "357:211220/1066:339725/1104:277653/1066:340235/1066:340237/1066:340238/1066:340239/1066:340240",
+                                "name": "矩形 125",
+                                "layoutStyle": {
+                                  "width": 4,
+                                  "height": 10,
+                                  "relativeX": 0,
+                                  "relativeY": 0
+                                },
+                                "fill": "paint_13:5070",
+                                "_color": "#000000"
+                              },
+                              {
+                                "type": "LAYER",
+                                "id": "357:211220/1066:339725/1104:277653/1066:340235/1066:340237/1066:340238/1066:340239/1066:340241",
+                                "name": "矩形 126",
+                                "layoutStyle": {
+                                  "width": 4,
+                                  "height": 10,
+                                  "relativeX": 7,
+                                  "relativeY": 0
+                                },
+                                "fill": "paint_13:5070",
+                                "_color": "#000000"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PATH",
+                        "id": "357:211220/1066:339725/1104:277653/1066:340235/1066:340237/1066:340242",
+                        "name": "路径 119",
+                        "layoutStyle": {
+                          "width": 26,
+                          "height": 14,
+                          "relativeX": 0,
+                          "relativeY": 14,
+                          "flipV": true
+                        },
+                        "svgKey": "S26:按钮-指向上|357:211220/1066:339725/1104:277653/1066:340235/1066:340237/1066:340242",
+                        "svgShortKey": "S26#0",
+                        "svgName": "按钮-指向上"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "GROUP",
+                "id": "357:211220/1066:339725/1104:277653/1066:340213",
+                "name": "按钮-指向左",
+                "layoutStyle": {
+                  "width": 100,
+                  "height": 60,
+                  "relativeX": 60,
+                  "relativeY": 36
+                },
+                "children": [
+                  {
+                    "type": "INSTANCE",
+                    "id": "357:211220/1066:339725/1104:277653/1066:340213/1066:340221",
+                    "name": "矩形 1399",
+                    "layoutStyle": {
+                      "width": 100,
+                      "height": 60,
+                      "relativeX": 0,
+                      "relativeY": 0
+                    },
+                    "effect": "effect_17:25760",
+                    "componentInfo": {},
+                    "children": [
+                      {
+                        "type": "LAYER",
+                        "id": "357:211220/1066:339725/1104:277653/1066:340213/1066:340221/93:184986",
+                        "name": "背景区域",
+                        "layoutStyle": {
+                          "width": 100,
+                          "height": 60,
+                          "relativeX": 0,
+                          "relativeY": 0
+                        },
+                        "borderRadius": "4px",
+                        "fill": "paint_921:452131",
+                        "_color": "linear-gradient(180deg, #D0EAFF 0%, #D0EAFF 42%, #B5D5F0 98%)",
+                        "effect": "effect_93:196684"
+                      }
+                    ],
+                    "componentId": "93:185032"
+                  },
+                  {
+                    "type": "GROUP",
+                    "id": "357:211220/1066:339725/1104:277653/1066:340213/1066:340214",
+                    "name": "组 1525",
+                    "layoutStyle": {
+                      "width": 26,
+                      "height": 35,
+                      "relativeX": 20.5,
+                      "relativeY": 12.5,
+                      "rotate": 90
+                    },
+                    "children": [
+                      {
+                        "type": "GROUP",
+                        "id": "357:211220/1066:339725/1104:277653/1066:340213/1066:340214/1066:340215",
+                        "name": "组 1520",
+                        "layoutStyle": {
+                          "width": 10,
+                          "height": 18,
+                          "relativeX": 8,
+                          "relativeY": 0,
+                          "flipV": true
+                        },
+                        "children": [
+                          {
+                            "type": "GROUP",
+                            "id": "357:211220/1066:339725/1104:277653/1066:340213/1066:340214/1066:340215/1066:340216",
+                            "name": "组 470",
+                            "layoutStyle": {
+                              "width": 18,
+                              "height": 10,
+                              "relativeX": -4,
+                              "relativeY": 4,
+                              "rotate": 90
+                            },
+                            "children": [
+                              {
+                                "type": "LAYER",
+                                "id": "357:211220/1066:339725/1104:277653/1066:340213/1066:340214/1066:340215/1066:340216/1066:340219",
+                                "name": "矩形 125",
+                                "layoutStyle": {
+                                  "width": 4,
+                                  "height": 10,
+                                  "relativeX": 0,
+                                  "relativeY": 0
+                                },
+                                "fill": "paint_13:5070",
+                                "_color": "#000000"
+                              },
+                              {
+                                "type": "LAYER",
+                                "id": "357:211220/1066:339725/1104:277653/1066:340213/1066:340214/1066:340215/1066:340216/1066:340217",
+                                "name": "矩形 126",
+                                "layoutStyle": {
+                                  "width": 4,
+                                  "height": 10,
+                                  "relativeX": 7,
+                                  "relativeY": 0
+                                },
+                                "fill": "paint_13:5070",
+                                "_color": "#000000"
+                              },
+                              {
+                                "type": "LAYER",
+                                "id": "357:211220/1066:339725/1104:277653/1066:340213/1066:340214/1066:340215/1066:340216/1066:340218",
+                                "name": "矩形 127",
+                                "layoutStyle": {
+                                  "width": 4,
+                                  "height": 10,
+                                  "relativeX": 14,
+                                  "relativeY": 0
+                                },
+                                "fill": "paint_13:5070",
+                                "_color": "#000000"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PATH",
+                        "id": "357:211220/1066:339725/1104:277653/1066:340213/1066:340214/1066:340220",
+                        "name": "路径 119",
+                        "layoutStyle": {
+                          "width": 26,
+                          "height": 14,
+                          "relativeX": 0,
+                          "relativeY": 21,
+                          "flipV": true
+                        },
+                        "svgKey": "S26:按钮-指向左|357:211220/1066:339725/1104:277653/1066:340213/1066:340214/1066:340220",
+                        "svgShortKey": "S26#1",
+                        "svgName": "按钮-指向左"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "GROUP",
+                "id": "357:211220/1066:339725/1104:277653/1066:340247",
+                "name": "按钮-指向右",
+                "layoutStyle": {
+                  "width": 100,
+                  "height": 60,
+                  "relativeX": 284,
+                  "relativeY": 36
+                },
+                "children": [
+                  {
+                    "type": "INSTANCE",
+                    "id": "357:211220/1066:339725/1104:277653/1066:340247/1066:340248",
+                    "name": "矩形 1399",
+                    "layoutStyle": {
+                      "width": 100,
+                      "height": 60,
+                      "relativeX": 0,
+                      "relativeY": 0
+                    },
+                    "effect": "effect_17:25760",
+                    "componentInfo": {},
+                    "children": [
+                      {
+                        "type": "LAYER",
+                        "id": "357:211220/1066:339725/1104:277653/1066:340247/1066:340248/93:184986",
+                        "name": "背景区域",
+                        "layoutStyle": {
+                          "width": 100,
+                          "height": 60,
+                          "relativeX": 0,
+                          "relativeY": 0
+                        },
+                        "borderRadius": "4px",
+                        "fill": "paint_921:452131",
+                        "_color": "linear-gradient(180deg, #D0EAFF 0%, #D0EAFF 42%, #B5D5F0 98%)",
+                        "effect": "effect_93:196684"
+                      }
+                    ],
+                    "componentId": "93:185032"
+                  },
+                  {
+                    "type": "GROUP",
+                    "id": "357:211220/1066:339725/1104:277653/1066:340247/1066:340249",
+                    "name": "组 1526",
+                    "layoutStyle": {
+                      "width": 26,
+                      "height": 35,
+                      "relativeX": 53.5,
+                      "relativeY": 12.5,
+                      "rotate": 90
+                    },
+                    "children": [
+                      {
+                        "type": "GROUP",
+                        "id": "357:211220/1066:339725/1104:277653/1066:340247/1066:340249/1066:340250",
+                        "name": "组 1520",
+                        "layoutStyle": {
+                          "width": 10,
+                          "height": 18,
+                          "relativeX": 8,
+                          "relativeY": 0,
+                          "flipV": true
+                        },
+                        "children": [
+                          {
+                            "type": "GROUP",
+                            "id": "357:211220/1066:339725/1104:277653/1066:340247/1066:340249/1066:340250/1066:340251",
+                            "name": "组 470",
+                            "layoutStyle": {
+                              "width": 18,
+                              "height": 10,
+                              "relativeX": -4,
+                              "relativeY": 4,
+                              "rotate": 90
+                            },
+                            "children": [
+                              {
+                                "type": "LAYER",
+                                "id": "357:211220/1066:339725/1104:277653/1066:340247/1066:340249/1066:340250/1066:340251/1066:340252",
+                                "name": "矩形 125",
+                                "layoutStyle": {
+                                  "width": 4,
+                                  "height": 10,
+                                  "relativeX": 0,
+                                  "relativeY": 0
+                                },
+                                "fill": "paint_13:5070",
+                                "_color": "#000000"
+                              },
+                              {
+                                "type": "LAYER",
+                                "id": "357:211220/1066:339725/1104:277653/1066:340247/1066:340249/1066:340250/1066:340251/1066:340254",
+                                "name": "矩形 126",
+                                "layoutStyle": {
+                                  "width": 4,
+                                  "height": 10,
+                                  "relativeX": 7,
+                                  "relativeY": 0
+                                },
+                                "fill": "paint_13:5070",
+                                "_color": "#000000"
+                              },
+                              {
+                                "type": "LAYER",
+                                "id": "357:211220/1066:339725/1104:277653/1066:340247/1066:340249/1066:340250/1066:340251/1066:340253",
+                                "name": "矩形 127",
+                                "layoutStyle": {
+                                  "width": 4,
+                                  "height": 10,
+                                  "relativeX": 14,
+                                  "relativeY": 0
+                                },
+                                "fill": "paint_13:5070",
+                                "_color": "#000000"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PATH",
+                        "id": "357:211220/1066:339725/1104:277653/1066:340247/1066:340249/1066:340255",
+                        "name": "路径 119",
+                        "layoutStyle": {
+                          "width": 26,
+                          "height": 14,
+                          "relativeX": 0,
+                          "relativeY": 21,
+                          "flipV": true
+                        },
+                        "svgKey": "S26:按钮-指向右|357:211220/1066:339725/1104:277653/1066:340247/1066:340249/1066:340255",
+                        "svgShortKey": "S26#2",
+                        "svgName": "按钮-指向右"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "GROUP",
+                "id": "357:211220/1066:339725/1104:277653/1066:340222",
+                "name": "按钮-指向下",
+                "layoutStyle": {
+                  "width": 100,
+                  "height": 60,
+                  "relativeX": 172,
+                  "relativeY": 72
+                },
+                "children": [
+                  {
+                    "type": "GROUP",
+                    "id": "357:211220/1066:339725/1104:277653/1066:340222/1066:340223",
+                    "name": "组 1522",
+                    "layoutStyle": {
+                      "width": 100,
+                      "height": 60,
+                      "relativeX": 0,
+                      "relativeY": 0
+                    },
+                    "children": [
+                      {
+                        "type": "INSTANCE",
+                        "id": "357:211220/1066:339725/1104:277653/1066:340222/1066:340223/1066:340230",
+                        "name": "矩形 1399",
+                        "layoutStyle": {
+                          "width": 100,
+                          "height": 60,
+                          "relativeX": 0,
+                          "relativeY": 0
+                        },
+                        "effect": "effect_17:25760",
+                        "componentInfo": {},
+                        "children": [
+                          {
+                            "type": "LAYER",
+                            "id": "357:211220/1066:339725/1104:277653/1066:340222/1066:340223/1066:340230/93:184986",
+                            "name": "背景区域",
+                            "layoutStyle": {
+                              "width": 100,
+                              "height": 60,
+                              "relativeX": 0,
+                              "relativeY": 0
+                            },
+                            "borderRadius": "4px",
+                            "fill": "paint_921:452131",
+                            "_color": "linear-gradient(180deg, #D0EAFF 0%, #D0EAFF 42%, #B5D5F0 98%)",
+                            "effect": "effect_93:196684"
+                          }
+                        ],
+                        "componentId": "93:185032"
+                      },
+                      {
+                        "type": "GROUP",
+                        "id": "357:211220/1066:339725/1104:277653/1066:340222/1066:340223/1066:340224",
+                        "name": "组 1522",
+                        "layoutStyle": {
+                          "width": 26,
+                          "height": 28,
+                          "relativeX": 37,
+                          "relativeY": 17
+                        },
+                        "children": [
+                          {
+                            "type": "GROUP",
+                            "id": "357:211220/1066:339725/1104:277653/1066:340222/1066:340223/1066:340224/1066:340226",
+                            "name": "组 1520",
+                            "layoutStyle": {
+                              "width": 10,
+                              "height": 11,
+                              "relativeX": 8,
+                              "relativeY": 0,
+                              "flipV": true
+                            },
+                            "children": [
+                              {
+                                "type": "GROUP",
+                                "id": "357:211220/1066:339725/1104:277653/1066:340222/1066:340223/1066:340224/1066:340226/1066:340227",
+                                "name": "组 470",
+                                "layoutStyle": {
+                                  "width": 11,
+                                  "height": 10,
+                                  "relativeX": -0.5,
+                                  "relativeY": 0.5,
+                                  "rotate": 90
+                                },
+                                "children": [
+                                  {
+                                    "type": "LAYER",
+                                    "id": "357:211220/1066:339725/1104:277653/1066:340222/1066:340223/1066:340224/1066:340226/1066:340227/1066:340228",
+                                    "name": "矩形 125",
+                                    "layoutStyle": {
+                                      "width": 4,
+                                      "height": 10,
+                                      "relativeX": 0,
+                                      "relativeY": 0
+                                    },
+                                    "fill": "paint_13:5070",
+                                    "_color": "#000000"
+                                  },
+                                  {
+                                    "type": "LAYER",
+                                    "id": "357:211220/1066:339725/1104:277653/1066:340222/1066:340223/1066:340224/1066:340226/1066:340227/1066:340229",
+                                    "name": "矩形 126",
+                                    "layoutStyle": {
+                                      "width": 4,
+                                      "height": 10,
+                                      "relativeX": 7,
+                                      "relativeY": 0
+                                    },
+                                    "fill": "paint_13:5070",
+                                    "_color": "#000000"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PATH",
+                            "id": "357:211220/1066:339725/1104:277653/1066:340222/1066:340223/1066:340224/1066:340225",
+                            "name": "路径 119",
+                            "layoutStyle": {
+                              "width": 26,
+                              "height": 14,
+                              "relativeX": 0,
+                              "relativeY": 14,
+                              "flipV": true
+                            },
+                            "svgKey": "S26:按钮-指向下|357:211220/1066:339725/1104:277653/1066:340222/1066:340223/1066:340224/1066:340225",
+                            "svgShortKey": "S26#3",
+                            "svgName": "按钮-指向下"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "GROUP",
+                    "id": "357:211220/1066:339725/1104:277653/1066:340222/1066:340231",
+                    "name": "组 1523",
+                    "layoutStyle": {
+                      "width": 26,
+                      "height": 2,
+                      "relativeX": 37,
+                      "relativeY": 48
+                    },
+                    "children": [
+                      {
+                        "type": "GROUP",
+                        "id": "357:211220/1066:339725/1104:277653/1066:340222/1066:340231/1066:340232",
+                        "name": "组 1520",
+                        "layoutStyle": {
+                          "width": 26,
+                          "height": 2,
+                          "relativeX": 0,
+                          "relativeY": 0,
+                          "flipV": true
+                        },
+                        "children": [
+                          {
+                            "type": "GROUP",
+                            "id": "357:211220/1066:339725/1104:277653/1066:340222/1066:340231/1066:340232/1066:340233",
+                            "name": "组 470",
+                            "layoutStyle": {
+                              "width": 2,
+                              "height": 26,
+                              "relativeX": 12,
+                              "relativeY": -12,
+                              "rotate": 90
+                            },
+                            "children": [
+                              {
+                                "type": "LAYER",
+                                "id": "357:211220/1066:339725/1104:277653/1066:340222/1066:340231/1066:340232/1066:340233/1066:340234",
+                                "name": "矩形 126",
+                                "layoutStyle": {
+                                  "width": 2,
+                                  "height": 26,
+                                  "relativeX": 0,
+                                  "relativeY": 0
+                                },
+                                "fill": "paint_13:5070",
+                                "_color": "#000000"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "TEXT",
+                "id": "357:211220/1066:339725/1104:277653/1066:340243",
+                "name": "SCAN",
+                "layoutStyle": {
+                  "width": 50,
+                  "height": 20,
+                  "relativeX": 0,
+                  "relativeY": 0
+                },
+                "fill": "paint_1104:273062",
+                "_color": "#000000",
+                "text": [
+                  {
+                    "text": "SCAN",
+                    "font": "font_1104:273134"
+                  }
+                ],
+                "textColor": [
+                  {
+                    "start": 0,
+                    "end": 4,
+                    "color": "paint_13:5070"
+                  }
+                ],
+                "textAlign": "left",
+                "textMode": "single-line",
+                "_placeholder": true
+              }
+            ],
+            "componentId": "1066:340212"
+          }
+        ],
+        "componentId": "1104:277652",
+        "_variantProps": {
+          "属性 1": "轴操作"
+        }
+      }
+    ],
+    "components": [],
+    "rowTexts": [
+      {
+        "text": "SCAN",
+        "_placeholder": true,
+        "parentType": "INSTANCE",
+        "parentName": "轴操作"
+      }
+    ],
+    "placeholderTexts": [
+      "SCAN"
+    ]
+  },
+  "nodeCount": 46,
+  "svgNodeCount": 4,
+  "hasStrippedSvgs": true,
+  "componentDocumentLinks": [],
+  "fetchProgress": "Fetched 28/35. MISSING 7 sections: [27,29,30,31,32,33,34]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
+}

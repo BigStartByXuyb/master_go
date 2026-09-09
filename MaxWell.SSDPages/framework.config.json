@@ -1,0 +1,19 @@
+{
+  "schemaVersion": "mastergo-project-config/1",
+  "mode": "mtslg-iocontrol",
+  "source_root": "",
+  "index_root": "docs/ai-index",
+  "pages_root": "Common/Pages",
+  "icons_root": "Resources/Icons",
+  "resource_roots": ["Resources/Files/Language"],
+  "layout_file": "Resources/Files/Layout.xml",
+  "key_catalog": "Generated/F2/F2Teach.keys.json",
+  "generated_root": "Generated",
+  "runtime_bindings": "pending",
+  "mastergo": {
+    "fileId": "181586559903927",
+    "layerId": "357:211220",
+    "page": "F2Teach",
+    "contentOriginY": 192
+  }
+}
